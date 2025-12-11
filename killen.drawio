@@ -7,35 +7,41 @@
         <mxCell id="9s4tPl7Uhryf7w1-S7yO-37" value="Huvudyta" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;strokeColor=#d6b656;fillColor=#fff2cc;verticalAlign=bottom;spacingBottom=10;" vertex="1" parent="1">
           <mxGeometry x="480" y="60" width="140" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="9s4tPl7Uhryf7w1-S7yO-36" value="Sidfot" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#dae8fc;strokeColor=#D4EFFF;" vertex="1" parent="1">
+        <mxCell id="9s4tPl7Uhryf7w1-S7yO-36" value="Sidfot" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#dae8fc;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="480" y="320" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="9s4tPl7Uhryf7w1-S7yO-31" value="Sidhuvud" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#dae8fc;strokeColor=#D4EFFF;" vertex="1" parent="1">
+        <mxCell id="9s4tPl7Uhryf7w1-S7yO-31" value="Sidhuvud" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#dae8fc;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="480" y="40" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="9s4tPl7Uhryf7w1-S7yO-30" value="Meny (flytande)" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#ffe6cc;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="9s4tPl7Uhryf7w1-S7yO-30" value="Meny (flytande)" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#ffe6cc;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="480" y="60" width="90" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="9s4tPl7Uhryf7w1-S7yO-25" value="Huvudyta H" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#F7FFC8;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="9s4tPl7Uhryf7w1-S7yO-25" value="Huvudyta H" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#fff2cc;strokeColor=none;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="305" y="60" width="135" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="9s4tPl7Uhryf7w1-S7yO-23" value="Huvudyta V" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+        <mxCell id="9s4tPl7Uhryf7w1-S7yO-23" value="Huvudyta V" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;strokeColor=none;fillColor=#fff2cc;" vertex="1" parent="1">
           <mxGeometry x="170" y="60" width="135" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="9s4tPl7Uhryf7w1-S7yO-22" value="Meny (fast)" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#ffe6cc;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="9s4tPl7Uhryf7w1-S7yO-22" value="Meny (fast)" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#ffe6cc;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="80" y="60" width="90" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="9s4tPl7Uhryf7w1-S7yO-2" value="Bas Mobil 350x750" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=40;labelBackgroundColor=default;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="480" y="40" width="140" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="9s4tPl7Uhryf7w1-S7yO-28" value="Sidhuvud" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#dae8fc;strokeColor=#D4EFFF;" vertex="1" parent="1">
+        <mxCell id="9s4tPl7Uhryf7w1-S7yO-28" value="Sidhuvud" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#dae8fc;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="80" y="40" width="360" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="9s4tPl7Uhryf7w1-S7yO-29" value="Sidfot" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#dae8fc;strokeColor=#D4EFFF;" vertex="1" parent="1">
+        <mxCell id="9s4tPl7Uhryf7w1-S7yO-29" value="Sidfot" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#dae8fc;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="80" y="280" width="360" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9s4tPl7Uhryf7w1-S7yO-1" value="Bas Desktop 900x650" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;verticalAlign=top;spacingBottom=12;spacingTop=40;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="80" y="40" width="360" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="9s4tPl7Uhryf7w1-S7yO-2" value="Bas Mobil 350x750" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=40;labelBackgroundColor=default;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="40" width="140" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="9s4tPl7Uhryf7w1-S7yO-38" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="305" y="280" as="sourcePoint" />
+            <mxPoint x="305" y="60" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
