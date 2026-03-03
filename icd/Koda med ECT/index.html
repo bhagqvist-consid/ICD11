@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ICD-11 Embedded Coding Tool</title>
+  <link rel="stylesheet" href="https://icdcdn.who.int/embeddedct/icd11ect-1.5.1.css">
+  <style>
+    .output {
+      width: 50em;
+      background: #f7f7f7;
+      border: none;
+      height: 20px;
+      padding: 5px;
+      word-wrap: break-word;
+    }
+
+    .ctw-input {
+      width: 30em;
+      height: 20px;
+      padding: 5px;
+    }
+
+    body {
+      width: 1000px;
+      font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+      margin: 1em;
+      padding: 0;
+      font-size: 14px;
+      line-height: 1.42857143;
+      color: #333;
+    }
+
+    table {
+      border-spacing: 0;
+    }
+    td {
+      padding-right: 1em;
+    }
+
+    .window-wrapper {
+      border: 1px solid silver;
+      width: 1000px;
+      min-height: 300px;
+      margin-top: 1em;
+      padding: 1em;
+    }
+  </style>
+  <script>
+        
+    function clearAll() {
+      document.getElementById('paste-code').value = "";
+      document.getElementById('paste-linearizationUri').value = "";
+      document.getElementById('paste-foundationUri').value = "";
+      document.getElementById('paste-searchQuery').value = "";
+      document.getElementById('paste-title').value = "";
+      document.getElementById('paste-selectedText').value = "";
+      ECT.Handler.clear('1'); 
+    }
+  </script>
+</head>
+
+<body>
+  <h1>ICD-11 Embedded Coding Tool (ECT)</h1>
+  <p style="width: 800px; font-size: larger;">
+    ECT är en komponent som WHO tagit fram för att integreras i vård- och journalsystem.
+    Här kan du prova hur komponenten fungerar. Syftet är också att se vilken information
+    som går att ta vara på, exempelvis för inhämtning, lagring och utläsning.
+  </p>
+  <p>Utgåva = 2025-01, Linjärisering = MMS, Språk = Svenska</p>
+
+  <table>
+    <tr>
+      <td>Börja söka</td>
+      <td>
+        <input type="text" class="ctw-input" autocomplete="off" data-ctw-ino="1">
+        <button onclick="clearAll()">Rensa</button>
+      </td>
+    </tr>
+    <tr>
+      <td>Vald kod</td>
+      <td><input class="output" type="text" id="paste-code" value="" readonly></td>
+    </tr>
+    <tr>
+      <td>Vald text</td>
+      <td><input class="output" type="text" id="paste-selectedText" value="" readonly></td>
+    </tr>
+    <tr>
+      <td>Huvuddiagnos</td>
+      <td><input class="output" type="text" id="paste-title" value="" readonly></td>
+    </tr>
+    <tr>
+      <td>Söktext</td>
+      <td><input class="output" type="text" id="paste-searchQuery" value="" readonly></td>
+    </tr>
+    <tr>
+      <td>Linjärisering Uri</td>
+      <td><input class="output" type="text" id="paste-linearizationUri" value="" readonly></td>
+    </tr>
+    <tr>
+      <td>Foundation Uri</td>
+      <td><input class="output" type="text" id="paste-foundationUri" value="" readonly></td>
+    </tr>
+  </table>
+
+  <div class="window-wrapper">
+    <div class="ctw-window" data-ctw-ino="1"></div>
+  </div>
+
+  <script src="https://icdcdn.who.int/embeddedct/icd11ect-1.5.1.js"></script>
+  <script>
+    const mySettings = {
+      apiServerUrl: "http://icd11kt01v:6382",
+      apiSecured: false,
+      language: "sv",
+    };
+    const myCallbacks = {
+      selectedEntityFunction: (selectedEntity) => {
+        document.getElementById('paste-code').value = selectedEntity.code;
+        document.getElementById('paste-linearizationUri').value = selectedEntity.linearizationUri;
+        document.getElementById('paste-foundationUri').value = selectedEntity.foundationUri;
+        document.getElementById('paste-searchQuery').value = selectedEntity.searchQuery;
+        document.getElementById('paste-title').value = selectedEntity.title;
+        document.getElementById('paste-selectedText').value = selectedEntity.selectedText;
+        // clear the searchbox and delete the search results
+        // ECT.Handler.clear("1")    
+      },
+      getNewTokenFunction: async () => {
+        //...
+      },
+      searchStartedFunction: () => {
+        //...
+      },
+      searchEndedFunction: () => {
+        //...
+      }
+    };
+    ECT.Handler.configure(mySettings, myCallbacks);
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,355 @@
+<!--
+  This program is intended to try out solutions for validating ICD-11 code clusters. The steps include:
+  1. Call GET Description with the given code cluster string.
+  2. Evaluate the result. For en error, present the error message and end processing.
+  3. Present the description.
+  4. Call GET Lookup for the stem code to get all postcoordination axis.
+  5. For each postcoordination axis check required and multiplicity.
+  6. Present the validation result.
+  (APL 2.0) 2025, 2026 Björn Hagqvist (bjorn.hagqvist@socialstyrelsen.se), Socialstyrelsen (www.socialstyrelsen.se).
+-->
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ICD-11 Avkodning av validering av kodkluster</title>
+  <link rel="stylesheet" href="https://icdcdn.who.int/embeddedct/icd11ect-1.5.1.css">
+  <style>
+    .input,
+    .output {
+      width: 40em;
+      height: 20px;
+      padding: 5px;
+      word-wrap: break-word;
+      border: 1px solid silver;
+    }
+
+    .output {
+      background: #f7f7f7;
+      width: auto;
+      font-weight: 600;
+    }
+
+    body {
+      width: 1000px;
+      font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+      margin: 1em;
+      padding: 0;
+      font-size: 14px;
+      line-height: 1.42857143;
+      color: #333;
+    }
+
+    table {
+      border-spacing: 5px;
+      position: relative;
+      left: -5px;
+    }
+
+    td {
+      padding: 0;
+      padding-right: 1em;
+      height: 20px;
+    }
+
+    button {
+      display: inline-block;
+      width: 5em;
+      margin-left: 1em;
+    }
+  </style>
+  <script>
+    function clearAll() {
+      document.getElementById('code').value = "";
+      document.getElementById('result').textContent = "";
+      clearResultTable();
+    }
+    function clearResultTable() {
+      const tabellKropp = document.getElementById("resultTable");
+      while (tabellKropp.rows.length > 2) {
+        tabellKropp.deleteRow(2);
+      }
+    }
+    function onKeyDown(event) {
+      if (event.key === 'Enter') {
+        event.preventDefault();
+        search();
+      }
+    }
+    function addRowToResultTable(text1, text2) {
+      const resultTable = document.getElementById('resultTable');
+      const newRow = resultTable.insertRow();
+      const cell1 = newRow.insertCell(0);
+      cell1.textContent = text1;
+      const cell2 = newRow.insertCell(1);
+      cell2.textContent = text2;
+      cell2.classList.add('output');
+    }
+    function countTerms(code) {
+      if (!code) return 0;
+      const unifiedCode = code.replace(/[&/]/g, ',');
+      const codeArray = unifiedCode.split(',');
+      return codeArray.length;
+    }
+    async function DescribeEntityByMmsUri(mmsUri) {
+      try {
+        var encoded = encodeURIComponent(mmsUri);
+        var response = await fetch('http://icd11kt01v:6382/icd/release/11/2025-01/mms/describe?uri=' + encoded, {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/json',
+            'API-version': 'v2',
+            'Accept-Language': 'sv'
+          }
+        });
+        var data = await response.json();
+        return data;
+      } catch (e) {
+        console.error(e);
+        return null;
+      }
+    }
+
+    async function DescribeEntityByCode(code) {
+      try {
+        var encodedCode = encodeURIComponent(code);
+        var response = await fetch('http://icd11kt01v:6382/icd/release/11/2025-01/mms/describe?code=' + encodedCode, {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/json',
+            'API-version': 'v2',
+            'Accept-Language': 'sv'
+          }
+        });
+        var data = await response.json();
+        return data;
+      } catch (e) {
+        console.error(e);
+        return null;
+      }
+    }
+
+    async function GetChildRecursive(mmsUri, recursiveDepth = 2) {
+      if (recursiveDepth < 0) return null;
+      const id = uriToId(mmsUri)
+      const entity = await GetEntityByMmsId(id)
+      const result = { "code": entity.code, "title": entity.title["@value"], "children": [] }
+      if (Array.isArray(entity.child)) {
+        for (var uri of entity.child) {
+          const childResult = await GetChildRecursive(uri, --recursiveDepth)
+          if (childResult) result.children.push(childResult)
+        }
+      }
+      return result;
+    }
+
+    function uriToId(uri) {
+      uri += "";
+      const regex = /mms\/(\d{5,10})/;
+      const match = uri.match(regex);
+      if (match && match[1]) {
+        return match[1];
+      }
+      return null;
+    }
+
+    async function GetEntityByMmsId(mmsId) {
+      try {
+        const url = `http://icd11kt01v:6382/icd/release/11/2025-01/mms/${mmsId}`;
+        var response = await fetch(url, {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/json',
+            'API-version': 'v2',
+            'Accept-Language': 'sv'
+          }
+        });
+        var data = await response.json();
+        return data;
+      } catch (e) {
+        console.error(e);
+        return null;
+      }
+    }
+
+    async function LookupItem(fndUri) {
+      try {
+        var encoded = encodeURIComponent(fndUri);
+        var response = await fetch('http://icd11kt01v:6382/icd/release/11/2025-01/mms/lookup?foundationUri=' + encoded, {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/json',
+            'API-version': 'v2',
+            'Accept-Language': 'sv'
+          }
+        });
+        var data = await response.json();
+        return data;
+      } catch (e) {
+        console.error(e);
+        return null;
+      }
+    }
+
+    function populateCode() {
+      const select = document.getElementById('exampleSelect');
+      const input = document.getElementById('code');
+
+      if (select.value !== "") {
+        input.value = select.value;
+        //search();
+      }
+    }
+
+    async function search() {
+      clearResultTable();
+      // hämta koden utan några WS i
+      const code = document.getElementById('code').value?.replace(/\s+/g, "");
+      const result = document.getElementById('result');
+
+      try {
+        // 1. Call GET Describe for a description of the given code cluster string. Describe
+        // also performs a number of basic validation checks (e.g. codes are valid and fit together)
+        // but skip checking rules like mandatory postcoordination and multiple values.
+        const description = await DescribeEntityByCode(code);
+
+        // 2. Evaluate the result. For en error, present the error message and end processing.
+        if (!description || !description.label) {
+          result.textContent = description ?? "error";
+          return;
+        }
+
+        // capture validated code
+        let validatedCode = description.code;
+
+        // 3. Present the description.
+        result.textContent = description.label;
+
+        // Prepare to check postcoordination axis
+        const usedPostcoordination = new Map();
+        // If postcoordination is used the description also contains the description of the stem code and each axis code.
+        // Count and store for later validation.
+        if (description.postcoordinationValues) {
+          description.postcoordinationValues.forEach(axis => {
+            usedPostcoordination.set(axis.axisName, axis.values.length);
+          });
+        }
+
+        // 4. Call GET Lookup for the main condition to get postcoordination axis
+        const stemFoundationUri = description.stemFoundationUri ?? description.foundationUri;
+        const stemData = await LookupItem(stemFoundationUri);
+        console.log(stemData.code, stemData.title["@value"]);
+        const stemCode = stemData.code
+        // Label och Title är inte alltid samma...
+        const stemLabel = description.stemLabel ?? description.label;
+        const stemTitle = stemData.title["@value"]
+
+        addRowToResultTable("StemCode", stemCode);
+        addRowToResultTable("StemTitle", stemTitle);
+        addRowToResultTable("StemLabel", stemLabel);
+
+        // 5. Check each axis, if required and allowed number of codes.
+        let hasTooManyPost = false;
+        let hasNotRequiredPost = false;
+
+        if (stemData.postcoordinationScale) {
+          for (const pcsItem of stemData.postcoordinationScale) {
+            const isRequired = pcsItem.requiredPostcoordination == "true";
+            const isMultipleAllowed = pcsItem.allowMultipleValues != "NotAllowed";
+            const axisName = pcsItem.axisName.split("/").pop();
+            const used = usedPostcoordination.get(axisName);
+            console.log(axisName, used);
+            // check
+            let axisOk = true;
+            if (isRequired && (used === undefined || used == 0)) {
+              hasNotRequiredPost = true;
+              axisOk = false;
+            }
+            if (!isMultipleAllowed && used > 1) {
+              hasTooManyPost = true;
+              axisOk = false;
+            }
+            // display the axis properties
+            addRowToResultTable('- axel', (axisOk ? "✅ " : "❌ ") + axisName
+              + (isRequired ? ' - obligatoriskt' : ' - ej obligatoriskt')
+              + (isMultipleAllowed ? " - flera koder tillåtna" : " - en kod tillåten")
+              + ((used === undefined || used == 0) ? " - antal: 0" : " - antal: " + used));
+          };
+        }
+
+        let hasTooManyCodes = countTerms(code) > countTerms(validatedCode);
+
+        // display validation result
+        if (hasTooManyPost) {
+          addRowToResultTable('Validering', "❌ För många postkoordineringar.");
+        } else if (hasNotRequiredPost) {
+          addRowToResultTable('Validering', "❌ Obligatorisk postkoordinering saknas.");
+        } else if (hasTooManyCodes) {
+          addRowToResultTable('Validering', "❌ Överskott i postkoordinering (för många koder).");
+        } else {
+          addRowToResultTable('Validering', "✅ Pass.");
+        }
+      } catch (error) {
+        // Fatal error
+        result.textContent = "Error message: " + error.message;
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <h1>ICD-11 Avkodning av validering av kodkluster</h1>
+  <p style="width: 800px; font-size: larger;">
+    Det här gränssnittet avkodar och validerar ett kodkluster genom anropa WHO:s API
+    med 'Describe' för normalisering klustret och få en beskrivning av den,
+    samt 'Lookup' av stamkoden för att kunna kontrollera att postkoordineringen stämmer.
+  </p>
+  <p>Utgåva = 2025-01, Linjärisering = MMS, Språk = Svenska</p>
+  <table>
+    <tr>
+      <td style="width: 140px;">Exempelkoder</td>
+      <td>
+        <select id="exampleSelect" class="input" style="width: 41em;height:auto" onchange="populateCode()">
+          <option value="">-- Välj ett exempel --</option>
+          <option value="BA00.Z">BA00.Z Högt blodtryck</option>
+          <option value="FB56.4">FB56.4 Smärtor i extremitet</option>
+          <option value="FB56.4&XK9K&XA9FF8">FB56.4&XK9K&XA9FF8 Smärtor i höger armbåge</option>
+          <option value="ND52&XK8G&XJ8PQ/PJ20">ND52&XK8G&XJ8PQ/PJ20 Fraktur .../ Misshandel</option>
+          <option value="ND52&XK8G&XJ8PQ/PA60&XE78X">ND52&XK8G&XJ8PQ/PA60&XE78X Fraktur .../ Fall under 1 meter</option>
+          <option value="CB05.3/5C56.0Y">CB05.3/5C56.0Y Interstitiell lungsjukdom vid Gauchers sjukdom</option>
+          <option value="1C12.0/CA40.0Y">1C12.0/CA40.0Y Kikhosta med bakteriell lunginflammation</option>
+          <option value="BD40.Y&XA81N7">BD40.Y&XA81N7 Kronisk aterosklerotisk arteriell ocklusiv sjukdom</option>
+          <option value="BC01/BB63.Z">BC01/BB63.Z Sjukdom i klaffprotes / Mitralisstenos med insufficiens</option>
+          <option value="GB60.Z">GB60.Z Akut njursvikt, ospecificerade (postk. saknas)</option>
+        </select>
+      </td>
+    </tr>
+  </table>
+  <table id="resultTable">
+    <tr>
+      <td style="width: 140px;">Kodkluster</td>
+      <td>
+        <input id="code" class="input" type="text" autocomplete="off" onkeydown="onKeyDown(event)" value="GB60.Z">
+        <button onclick="search()">Sök</button>
+        <button onclick="clearAll()">Rensa</button>
+      </td>
+    </tr>
+    <tr>
+      <td>Betydelse</td>
+      <td id="result" class="output"></td>
+    </tr>
+  </table>
+  <script src="https://icdcdn.who.int/embeddedct/icd11ect-1.5.1.js"></script>
+  <script>
+    const mySettings = {
+      apiServerUrl: "http://icd11kt01v:6382",
+      apiSecured: false,
+      language: "sv",
+    }
+  </script>
+</body>
+
+</html>

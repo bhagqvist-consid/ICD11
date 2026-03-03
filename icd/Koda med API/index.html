@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ICD-11 kodning (WCAG)</title>
+  <style>
+    :root { --pad: 12px; --radius: 12px; }
+    * { box-sizing: border-box; }
+    body { font-family: system-ui, sans-serif; line-height: 1.4; margin: 0; }
+    .wrap { max-width: 900px; padding: 24px; margin: 0 auto; }
+    .label { display:block; font-weight: 600; margin-bottom: 6px; }
+    .input { width: 100%; padding: var(--pad); border: 1px solid #777; border-radius: var(--radius); }
+    .input:focus { outline: 3px solid #000; outline-offset: 2px; }
+    .hint { margin-top: 6px; color: #333; font-size: 0.95rem; }
+    .status { margin-top: 10px; min-height: 1.2em; }
+    hr { margin: 24px 0; border: 0; border-top: 1px solid #ddd; }
+
+    .listbox { list-style: none; padding: 0; margin: 8px 0 0; border: 1px solid #777; border-radius: var(--radius); }
+    .option { padding: 10px 12px; border-top: 1px solid #ddd; cursor: pointer; }
+    .option:first-child { border-top: none; }
+    .option[aria-selected="true"], .option.active { outline: 3px solid #000; outline-offset: -3px; }
+
+    .card { padding: 14px; border: 1px solid #777; border-radius: var(--radius); margin: 8px 0; }
+    .row { display:flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+    .badge { display:inline-block; padding: 2px 8px; border: 1px solid #555; border-radius: 999px; }
+    .btn { padding: 10px 14px; border-radius: var(--radius); border: 1px solid #333; background: #fff; }
+    .btn:focus { outline: 3px solid #000; outline-offset: 2px; }
+    .btn[disabled] { opacity: 0.5; }
+
+    em.found { font-style: normal; text-decoration: underline; }
+
+    details { border-top: 1px solid #ddd; padding-top: 10px; margin-top: 10px; }
+    summary { cursor: pointer; font-weight: 600; }
+    summary:focus { outline: 3px solid #000; outline-offset: 2px; }
+    .axisBody { margin-top: 10px; }
+    .choice { display: flex; gap: 10px; padding: 6px 0; }
+    .choice input { margin-top: 3px; }
+    .choiceLabel { display: block; }
+    .small { font-size: 0.95rem; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>ICD-11 kodning</h1>
+
+    <section aria-label="Sök diagnos">
+      <label for="q" class="label">Sökterm</label>
+      <input
+        id="q"
+        class="input"
+        type="text"
+        autocomplete="off"
+        spellcheck="false"
+        placeholder="Skriv minst 3 tecken…"
+        role="combobox"
+        aria-autocomplete="list"
+        aria-expanded="false"
+        aria-controls="suggestions"
+        aria-activedescendant=""
+      />
+      <div class="hint">Använd piltangenter ↑/↓ och Enter för att välja.</div>
+
+      <ul id="suggestions" class="listbox" role="listbox" aria-label="Förslag"></ul>
+      <div id="status" class="status" role="status" aria-live="polite"></div>
+    </section>
+
+    <hr />
+
+    <section aria-label="Vald diagnos">
+      <h2>Val</h2>
+      <div id="selected" class="card" hidden></div>
+    </section>
+
+    <section aria-label="Postkoordinering">
+      <h2>Postkoordinering</h2>
+
+      <!-- OBS: postcoord är en card som innehåller både en dynamisk body (skapas i JS)
+           och en footer (fast markup) som JS fyller i. -->
+      <div id="postcoord" class="card" hidden>
+        <div id="postcoordFooter" class="hint" style="margin-top:12px" hidden>
+          <div><strong>Valda postkoordineringar (axel → URI):</strong></div>
+          <div id="selectedAxisUris" class="small" style="white-space: pre-wrap"></div>
+        </div>
+      </div>
+    </section>
+
+    <section aria-label="Kodkluster">
+      <div id="clusterBox" class="card" hidden>
+        <h3>Kodkluster</h3>
+        <div class="row" style="margin-top:6px">
+          <span class="badge" id="compactCluster"></span>
+        </div>
+        <!--div class="row">
+          <span class="badge" id="clusterCode"></span>
+        </div-->
+        <div class="small hint" id="clusterMeta"></div>
+      </div>
+      <button id="confirm" class="btn" type="button" disabled>
+        Kopiera och använd kodkluster
+      </button>
+      <div id="confirmHelp" class="hint"></div>
+    </section>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
