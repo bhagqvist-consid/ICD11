@@ -1,0 +1,71 @@
+* Grund-definitioner *
+RapportInfo = RapportMånad + RapportTidpunkt
+RapportMånad = Årtal + Månad
+RapportTidpunkt = Datum + Klockslag
+
+AdministrativUppgift = VårdkontaktId + Startdatum + (Slutdatum) + Patient + Vårdgivare
+Vårdgivare = SjukhusKod + KlinikKod
+Patient = Personnummer + JuridisktKön + Födelseår
+
+VårdkontaktRapport = RapportInfo + AdministrativUppgift +
+  [SlutenvårdkontaktRapport | ÖppenvårdkontaktRapport |
+   PsykiatriskVårdformRapport | PsykiatriskÖppenvårdkontaktRapport]
+
+Vårdinnehåll = HälsotillståndInfo + {Åtgärd} + {LäkemedelstillförselUtanÅtgärdskod} + PlaneradVårdkontakt
+
+SlutenvårdkontaktRapport = Vårdinnehåll + Inskrivningssätt + (Utskrivningssätt)
+
+ÖppenvårdkontaktRapport  = Vårdinnehåll + Akutverksamhet + (AkutTidpunkter) + (AvbrutenVård) + Kontaktform
+PsykiatriskÖppenvårdkontaktRapport = ÖppenvårdkontaktRapport + Yrkeskategori
+
+PsykiatriskVårdformRapport = PsykiatriskVårdform 
+
+* Diagnos och tillstånd *
+HälsotillståndInfo = HälsoTillstånd_ICD10 | HälsoTillstånd_ICD11
+
+HälsoTillstånd_ICD10 = Huvuddiagnos + {Bidiagnos} + {YttreOrsak}
+Huvuddiagnos = Diagnos
+Bidiagnos = Diagnos
+
+Diagnos = Kod_ICD10SE + (ATC-kod)
+YttreOrsak = Kod_ICD10SE_XX + (ATC-kod)
+
+HälsoTillstånd_ICD11 = Kontext + HuvudKluster + {BiKluster}
+Kontext = Linjärisering + Release
+HuvudKluster = Kluster
+BiKluster = Kluster
+
+Kluster = KlusterRaw + KlusterParsed
+
+KlusterRaw = KodKlusterRaw + FoundationUriKlusterRaw + Beteckning
+KodKlusterRaw = Sträng              * ex "5A41/NE60&XM0JN5" *
+FoundationUriKlusterRaw = Sträng    * ex "uriStem1 / uriStem2 & uriX1" *
+
+KlusterParsed = StamEntitet + {RelateratTillstånd}
+StamEntitet = Stamkod + FoundationUri + Beteckning + {Utökning} + (KlinisktVal) + {ATC-kod}
+KlinisktVal = ValdFoundationUri + ValdText
+
+RelateratTillstånd = RelationAxel + StamEntitet + {Utökning}
+Utökning = XAxel + XKodEntitet
+XKodEntitet = XKod + FoundationUri + Beteckning
+
+* Övriga definitioner *
+
+Åtgärd = Åtgärdskod + (ATC-kod) + ÅtgärdDatum
+LäkemedelstillförselUtanÅtgärdskod = ATC-kod + ÅtgärdDatum
+Kontaktform = MottagningsbesökEnPersonal | MottagningsbesökFleraPersonal | GruppbesökEnPersonal | GruppbesökFleraPersonal | HembesökEnPersonal | HembesökFleraPersonal | AnnanPlatsEnPersonal | AnnanPlatsFleraPersonal | Distanskontakt
+Akutverksamhet = EjAkut | AkutmottagningSamlokaliseradSomatik | AkutmottagningEnSomatiskSpecialitet | PsykiatriskAkutmottagning | NärakutNärsjukhusJour | ÖvrigAkut
+
+* Endast om Akutverksamhet=AkutmottagningSamlokaliseradSomatik *
+AkutTidpunkter = StartTidpunkt + BedömningTidpunkt + AvslutTidpunkt
+
+* Endast om Akutverksamhet=AkutmottagningSamlokaliseradSomatik *
+AvbrutenVård = EjAvbruten | AvvikerEfterLäkarbedömning | AvbrutenPåAnnatSättEfterLäkarbedömning
+
+Yrkeskategori = SOSNYK-kod
+PlaneradVårdkontakt = Ja | Nej
+Inskrivningssätt = FrånAnnanVårdenhet | FrånSärskiltBoende | FrånOrdinärtBoende
+Utskrivningssätt = TillAnnanVårdenhet | TillSärskiltBoende | TillOrdinärtBoende | Avliden
+JuridisktKön = Man | Kvinna
+
+
