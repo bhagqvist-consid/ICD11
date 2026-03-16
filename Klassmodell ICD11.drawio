@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" version="29.4.0">
   <diagram name="Sida-1" id="XqzHAMIrGUZNiZZ9pNJX">
-    <mxGraphModel dx="431" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="625" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -86,7 +86,7 @@
             <mxPoint x="530" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-32" edge="1" parent="1" source="oIDMnjWsm9kTNOJ8Ge3D-23" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" target="oIDMnjWsm9kTNOJ8Ge3D-13" value="Extends">
+        <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-32" edge="1" parent="1" source="oIDMnjWsm9kTNOJ8Ge3D-23" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" target="oIDMnjWsm9kTNOJ8Ge3D-13" value="">
           <mxGeometry relative="1" width="160" as="geometry">
             <mxPoint x="350" y="540" as="sourcePoint" />
             <mxPoint x="510" y="540" as="targetPoint" />
@@ -98,14 +98,32 @@
         <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-34" parent="oIDMnjWsm9kTNOJ8Ge3D-33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ kontaktform: Enum" vertex="1">
           <mxGeometry height="26" width="210" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-35" parent="oIDMnjWsm9kTNOJ8Ge3D-33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ akutverksamhet: Enum [0..1]" vertex="1">
+        <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-35" parent="oIDMnjWsm9kTNOJ8Ge3D-33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ akutverksamhet: Enum[0..1]" vertex="1">
           <mxGeometry height="26" width="210" y="52" as="geometry" />
         </mxCell>
-        <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-36" parent="oIDMnjWsm9kTNOJ8Ge3D-33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ avbrutenVård: Enum [0..1]" vertex="1">
+        <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-36" parent="oIDMnjWsm9kTNOJ8Ge3D-33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ avbrutenVård: Enum[0..1]" vertex="1">
           <mxGeometry height="26" width="210" y="78" as="geometry" />
         </mxCell>
-        <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-37" parent="oIDMnjWsm9kTNOJ8Ge3D-33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ akutTidpunkter: Object [0..1]" vertex="1">
+        <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-37" parent="oIDMnjWsm9kTNOJ8Ge3D-33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ akutTidpunkter: Object[0..1]" vertex="1">
           <mxGeometry height="26" width="210" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-38" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Slutenvårdkontakt" vertex="1">
+          <mxGeometry height="52" width="210" x="670" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-39" parent="oIDMnjWsm9kTNOJ8Ge3D-38" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ vårdform: Enum (D-K)" vertex="1">
+          <mxGeometry height="26" width="210" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-41" edge="1" parent="1" source="oIDMnjWsm9kTNOJ8Ge3D-33" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" target="oIDMnjWsm9kTNOJ8Ge3D-13" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="470" y="550" as="sourcePoint" />
+            <mxPoint x="516" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-42" edge="1" parent="1" source="oIDMnjWsm9kTNOJ8Ge3D-38" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" target="oIDMnjWsm9kTNOJ8Ge3D-13" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="620" y="610" as="sourcePoint" />
+            <mxPoint x="666" y="530" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
