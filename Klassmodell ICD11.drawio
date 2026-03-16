@@ -222,7 +222,7 @@
         <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-91" parent="oIDMnjWsm9kTNOJ8Ge3D-88" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ avslutTidpunkt: DateTime" vertex="1">
           <mxGeometry height="26" width="200" y="104" as="geometry" />
         </mxCell>
-        <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-177" parent="oIDMnjWsm9kTNOJ8Ge3D-88" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ avbrutenVård: Enum[0..1]" vertex="1">
+        <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-177" parent="oIDMnjWsm9kTNOJ8Ge3D-88" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ avbrutenVård: Enum(0,1,2)" vertex="1">
           <mxGeometry height="26" width="200" y="130" as="geometry" />
         </mxCell>
         <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-93" edge="1" parent="1" source="oIDMnjWsm9kTNOJ8Ge3D-13" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;align=left;verticalAlign=bottom;rounded=0;" target="oIDMnjWsm9kTNOJ8Ge3D-75" value="0..*">
