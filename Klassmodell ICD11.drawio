@@ -153,7 +153,7 @@
         <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-66" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Utökning" vertex="1">
           <mxGeometry height="78" width="200" x="825" y="1217" as="geometry" />
         </mxCell>
-        <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-173" parent="oIDMnjWsm9kTNOJ8Ge3D-66" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ kod: String {X-kod}" vertex="1">
+        <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-173" parent="oIDMnjWsm9kTNOJ8Ge3D-66" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ kod: String {Detaljkod}" vertex="1">
           <mxGeometry height="26" width="200" y="26" as="geometry" />
         </mxCell>
         <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-67" parent="oIDMnjWsm9kTNOJ8Ge3D-66" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ axis: String" vertex="1">
@@ -288,7 +288,7 @@
             <mxPoint x="455" y="868" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-147" connectable="0" parent="oIDMnjWsm9kTNOJ8Ge3D-146" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;huvuddiagnos&amp;gt;&amp;gt;" vertex="1">
+        <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-147" connectable="0" parent="oIDMnjWsm9kTNOJ8Ge3D-146" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;huvudiagnos&amp;gt;&amp;gt;" vertex="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -331,7 +331,7 @@
             <mxPoint x="315" y="1010" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-153" connectable="0" parent="oIDMnjWsm9kTNOJ8Ge3D-152" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;huvuddiagnos&amp;gt;&amp;gt;" vertex="1">
+        <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-153" connectable="0" parent="oIDMnjWsm9kTNOJ8Ge3D-152" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;huvudkluster&amp;gt;&amp;gt;" vertex="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -347,7 +347,7 @@
             <mxPoint x="345" y="1030" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-155" connectable="0" parent="oIDMnjWsm9kTNOJ8Ge3D-154" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;bidiagnos&amp;gt;" vertex="1">
+        <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-155" connectable="0" parent="oIDMnjWsm9kTNOJ8Ge3D-154" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;bikluster&amp;gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;gt;&lt;/span&gt;" vertex="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
