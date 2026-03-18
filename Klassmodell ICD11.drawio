@@ -151,7 +151,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-66" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#fff2cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;" value="Utökning" vertex="1">
-          <mxGeometry height="78" width="160" x="1020" y="599" as="geometry" />
+          <mxGeometry height="78" width="160" x="995" y="599" as="geometry" />
         </mxCell>
         <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-173" parent="oIDMnjWsm9kTNOJ8Ge3D-66" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ kod: String {Detaljkod}" vertex="1">
           <mxGeometry height="26" width="160" y="26" as="geometry" />
@@ -162,8 +162,8 @@
         <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-70" edge="1" parent="1" source="oIDMnjWsm9kTNOJ8Ge3D-107" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;align=left;verticalAlign=bottom;rounded=0;" target="oIDMnjWsm9kTNOJ8Ge3D-66" value="0..*">
           <mxGeometry relative="1" x="0.5929" y="-22" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="1485" y="624" as="sourcePoint" />
-            <mxPoint x="1485" y="721" as="targetPoint" />
+            <mxPoint x="1460" y="624" as="sourcePoint" />
+            <mxPoint x="1460" y="721" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-71" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f5f5f5;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#333333;strokeColor=#666666;" value="MedicinskÅtgärd" vertex="1">
@@ -247,18 +247,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-107" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#fff2cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;" value="RelateratTillstånd" vertex="1">
-          <mxGeometry height="52" width="160" x="1020" y="746" as="geometry" />
+          <mxGeometry height="52" width="160" x="995" y="746" as="geometry" />
         </mxCell>
         <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-181" parent="oIDMnjWsm9kTNOJ8Ge3D-107" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ axel: String" vertex="1">
           <mxGeometry height="26" width="160" y="26" as="geometry" />
         </mxCell>
         <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-123" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#fff2cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;" value="StamEntitet" vertex="1">
-          <mxGeometry height="52" width="160" x="1020" y="470" as="geometry" />
+          <mxGeometry height="52" width="160" x="995" y="470" as="geometry" />
         </mxCell>
         <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-111" parent="oIDMnjWsm9kTNOJ8Ge3D-123" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ atcKoder: List&amp;lt;String&amp;gt;" vertex="1">
           <mxGeometry height="26" width="160" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-135" edge="1" parent="1" source="oIDMnjWsm9kTNOJ8Ge3D-52" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;align=left;verticalAlign=bottom;rounded=0;" target="oIDMnjWsm9kTNOJ8Ge3D-107" value="0..*">
+        <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-135" edge="1" parent="1" source="oIDMnjWsm9kTNOJ8Ge3D-52" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;align=left;verticalAlign=bottom;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="oIDMnjWsm9kTNOJ8Ge3D-107" value="0..*">
           <mxGeometry relative="1" x="0.8995" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="1385" y="594" as="sourcePoint" />
@@ -347,7 +347,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-157" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#fff2cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;" value="&lt;i&gt;KodadEntitet&lt;/i&gt;" vertex="1">
-          <mxGeometry height="104" width="170" x="1015" y="184" as="geometry" />
+          <mxGeometry height="104" width="170" x="990" y="184" as="geometry" />
         </mxCell>
         <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-159" parent="oIDMnjWsm9kTNOJ8Ge3D-157" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ kod: String {Stamkod}" vertex="1">
           <mxGeometry height="26" width="170" y="26" as="geometry" />
@@ -361,28 +361,28 @@
         <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-162" edge="1" parent="1" source="oIDMnjWsm9kTNOJ8Ge3D-66" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="oIDMnjWsm9kTNOJ8Ge3D-157" value="">
           <mxGeometry relative="1" width="160" as="geometry">
             <Array as="points">
-              <mxPoint x="1200" y="638" />
-              <mxPoint x="1200" y="400" />
-              <mxPoint x="1130" y="400" />
+              <mxPoint x="1175" y="638" />
+              <mxPoint x="1175" y="400" />
+              <mxPoint x="1105" y="400" />
             </Array>
-            <mxPoint x="1485" y="524" as="sourcePoint" />
-            <mxPoint x="1531.034670846395" y="592" as="targetPoint" />
+            <mxPoint x="1460" y="524" as="sourcePoint" />
+            <mxPoint x="1506.034670846395" y="592" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-163" edge="1" parent="1" source="oIDMnjWsm9kTNOJ8Ge3D-107" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="oIDMnjWsm9kTNOJ8Ge3D-157" value="">
           <mxGeometry relative="1" width="160" as="geometry">
             <Array as="points">
-              <mxPoint x="1230" y="772" />
-              <mxPoint x="1230" y="236" />
+              <mxPoint x="1205" y="772" />
+              <mxPoint x="1205" y="236" />
             </Array>
-            <mxPoint x="1345" y="814" as="sourcePoint" />
-            <mxPoint x="1225" y="814" as="targetPoint" />
+            <mxPoint x="1320" y="814" as="sourcePoint" />
+            <mxPoint x="1200" y="814" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-164" edge="1" parent="1" source="oIDMnjWsm9kTNOJ8Ge3D-123" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" target="oIDMnjWsm9kTNOJ8Ge3D-157" value="">
           <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="1522" y="850" as="sourcePoint" />
-            <mxPoint x="1515" y="714" as="targetPoint" />
+            <mxPoint x="1497" y="850" as="sourcePoint" />
+            <mxPoint x="1490" y="714" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-165" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;" value="PsykiatriskÖppenvårdkontakt" vertex="1">
@@ -415,8 +415,8 @@
         <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-180" edge="1" parent="1" source="oIDMnjWsm9kTNOJ8Ge3D-123" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;align=left;verticalAlign=bottom;rounded=0;" target="oIDMnjWsm9kTNOJ8Ge3D-66" value="0..*">
           <mxGeometry relative="1" x="0.8995" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="1560" y="534" as="sourcePoint" />
-            <mxPoint x="1560" y="622" as="targetPoint" />
+            <mxPoint x="1535" y="534" as="sourcePoint" />
+            <mxPoint x="1535" y="622" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-75" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f5f5f5;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#333333;strokeColor=#666666;" value="Läkemedelstillförsel" vertex="1">
