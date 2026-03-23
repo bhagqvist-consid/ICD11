@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.3" pages="2">
   <diagram name="Liggande" id="XqzHAMIrGUZNiZZ9pNJX">
-    <mxGraphModel dx="2229" dy="993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1271" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -386,10 +386,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-165" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;" value="PsykiatriskÖppenvårdkontakt" vertex="1">
-          <mxGeometry height="52" width="220" x="270" y="560" as="geometry" />
+          <mxGeometry height="52" width="280" x="270" y="638" as="geometry" />
         </mxCell>
-        <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-168" parent="oIDMnjWsm9kTNOJ8Ge3D-165" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ yrkeskategoriKod: String {SOSNYK}" vertex="1">
-          <mxGeometry height="26" width="220" y="26" as="geometry" />
+        <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-168" parent="oIDMnjWsm9kTNOJ8Ge3D-165" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ yrkeskategoriKoder: String[1..*] {SOSNYK}" vertex="1">
+          <mxGeometry height="26" width="280" y="26" as="geometry" />
         </mxCell>
         <mxCell id="oIDMnjWsm9kTNOJ8Ge3D-169" edge="1" parent="1" source="oIDMnjWsm9kTNOJ8Ge3D-165" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" target="oIDMnjWsm9kTNOJ8Ge3D-33" value="">
           <mxGeometry relative="1" width="160" as="geometry">
