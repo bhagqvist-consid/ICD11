@@ -841,7 +841,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Liggande 0.3" id="ovzueMNYT5PDxKd4to0U">
-    <mxGraphModel dx="1089" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="896" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="cF_ZEpMrHwhVyL1QYetj-0" />
         <mxCell id="cF_ZEpMrHwhVyL1QYetj-1" parent="cF_ZEpMrHwhVyL1QYetj-0" />
@@ -1305,6 +1305,9 @@
             <mxPoint x="159.28999999999996" y="502" as="sourcePoint" />
             <mxPoint x="159.28999999999996" y="611" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="s_8jjgbKOBrnvSMRiLbT-32" parent="cF_ZEpMrHwhVyL1QYetj-1" style="text;whiteSpace=wrap;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;html=1;fontStyle=1" value="Se tabell 7.2 &quot;Ett nytt regelverk för hälsodataregister&lt;br&gt;SOU 2024:57&quot;" vertex="1">
+          <mxGeometry height="40" width="300" x="30" y="523" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
