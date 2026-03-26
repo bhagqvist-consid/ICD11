@@ -841,7 +841,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Liggande 0.3" id="ovzueMNYT5PDxKd4to0U">
-    <mxGraphModel dx="1962" dy="1075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1089" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="cF_ZEpMrHwhVyL1QYetj-0" />
         <mxCell id="cF_ZEpMrHwhVyL1QYetj-1" parent="cF_ZEpMrHwhVyL1QYetj-0" />
@@ -1206,10 +1206,10 @@
         <mxCell id="cF_ZEpMrHwhVyL1QYetj-95" parent="cF_ZEpMrHwhVyL1QYetj-93" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ datum: Date" vertex="1">
           <mxGeometry height="26" width="170" y="52" as="geometry" />
         </mxCell>
-        <mxCell id="cF_ZEpMrHwhVyL1QYetj-96" parent="cF_ZEpMrHwhVyL1QYetj-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;" value="RekvisionsläkemedelRapport" vertex="1">
+        <mxCell id="cF_ZEpMrHwhVyL1QYetj-96" parent="cF_ZEpMrHwhVyL1QYetj-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;" value="AdministreratLäkemedelRapport" vertex="1">
           <mxGeometry height="52" width="190" x="60" y="452" as="geometry" />
         </mxCell>
-        <mxCell id="cF_ZEpMrHwhVyL1QYetj-97" parent="cF_ZEpMrHwhVyL1QYetj-96" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="??????????" vertex="1">
+        <mxCell id="cF_ZEpMrHwhVyL1QYetj-97" parent="cF_ZEpMrHwhVyL1QYetj-96" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ OrdinationsOrsak: Enum" vertex="1">
           <mxGeometry height="26" width="190" y="26" as="geometry" />
         </mxCell>
         <mxCell id="cF_ZEpMrHwhVyL1QYetj-98" edge="1" parent="cF_ZEpMrHwhVyL1QYetj-1" source="cF_ZEpMrHwhVyL1QYetj-96" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" target="cF_ZEpMrHwhVyL1QYetj-2" value="">
@@ -1280,6 +1280,28 @@
         </mxCell>
         <mxCell id="s_8jjgbKOBrnvSMRiLbT-21" parent="s_8jjgbKOBrnvSMRiLbT-9" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" value="0.3" vertex="1">
           <mxGeometry height="20" width="33" x="107" y="46" as="geometry" />
+        </mxCell>
+        <mxCell id="s_8jjgbKOBrnvSMRiLbT-22" parent="cF_ZEpMrHwhVyL1QYetj-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;" value="AdministreratLäkemedelRapport" vertex="1">
+          <mxGeometry height="130" width="190" x="65" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="s_8jjgbKOBrnvSMRiLbT-23" parent="s_8jjgbKOBrnvSMRiLbT-22" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ ATC-kod: String" vertex="1">
+          <mxGeometry height="26" width="190" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="s_8jjgbKOBrnvSMRiLbT-27" parent="s_8jjgbKOBrnvSMRiLbT-22" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Dosenhet: Enum" vertex="1">
+          <mxGeometry height="26" width="190" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="s_8jjgbKOBrnvSMRiLbT-28" parent="s_8jjgbKOBrnvSMRiLbT-22" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Dos: Decimal" vertex="1">
+          <mxGeometry height="26" width="190" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="s_8jjgbKOBrnvSMRiLbT-29" parent="s_8jjgbKOBrnvSMRiLbT-22" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Metod: Enum" vertex="1">
+          <mxGeometry height="26" width="190" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="s_8jjgbKOBrnvSMRiLbT-24" edge="1" parent="cF_ZEpMrHwhVyL1QYetj-1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;align=left;verticalAlign=bottom;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="s_8jjgbKOBrnvSMRiLbT-22" value="1..*">
+          <mxGeometry relative="1" x="0.9009" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="159.28999999999996" y="502" as="sourcePoint" />
+            <mxPoint x="159.28999999999996" y="611" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
