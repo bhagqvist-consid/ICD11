@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.4" pages="5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.6" pages="5">
   <diagram name="Liggande" id="XqzHAMIrGUZNiZZ9pNJX">
     <mxGraphModel dx="1540" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -841,7 +841,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Liggande 0.3" id="ovzueMNYT5PDxKd4to0U">
-    <mxGraphModel dx="2308" dy="1265" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1635" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="cF_ZEpMrHwhVyL1QYetj-0" />
         <mxCell id="cF_ZEpMrHwhVyL1QYetj-1" parent="cF_ZEpMrHwhVyL1QYetj-0" />
@@ -851,13 +851,13 @@
         <mxCell id="cF_ZEpMrHwhVyL1QYetj-2" parent="cF_ZEpMrHwhVyL1QYetj-1" style="swimlane;fontStyle=2;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;" value="&lt;span style=&quot;font-style: normal;&quot;&gt;VårdRapport&lt;/span&gt;" vertex="1">
           <mxGeometry height="208" width="200" x="332" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="cF_ZEpMrHwhVyL1QYetj-3" parent="cF_ZEpMrHwhVyL1QYetj-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=2" value="+ register: Enum" vertex="1">
+        <mxCell id="cF_ZEpMrHwhVyL1QYetj-3" parent="cF_ZEpMrHwhVyL1QYetj-2" style="text;strokeColor=#36393d;fillColor=#f9f7ed;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=2" value="+ register: Enum" vertex="1">
           <mxGeometry height="26" width="200" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="s_8jjgbKOBrnvSMRiLbT-31" parent="cF_ZEpMrHwhVyL1QYetj-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=2" value="+ mottagningsId: UID" vertex="1">
+        <mxCell id="s_8jjgbKOBrnvSMRiLbT-31" parent="cF_ZEpMrHwhVyL1QYetj-2" style="text;strokeColor=#36393d;fillColor=#f9f7ed;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=2" value="+ mottagningsId: UID" vertex="1">
           <mxGeometry height="26" width="200" y="52" as="geometry" />
         </mxCell>
-        <mxCell id="cF_ZEpMrHwhVyL1QYetj-4" parent="cF_ZEpMrHwhVyL1QYetj-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=2" value="+ mottagningsTidpunkt: DateTime" vertex="1">
+        <mxCell id="cF_ZEpMrHwhVyL1QYetj-4" parent="cF_ZEpMrHwhVyL1QYetj-2" style="text;strokeColor=#36393d;fillColor=#f9f7ed;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=2" value="+ mottagningsTidpunkt: DateTime" vertex="1">
           <mxGeometry height="26" width="200" y="78" as="geometry" />
         </mxCell>
         <mxCell id="cF_ZEpMrHwhVyL1QYetj-5" parent="cF_ZEpMrHwhVyL1QYetj-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ rapportMånad: String" vertex="1">
