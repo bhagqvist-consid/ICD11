@@ -1339,10 +1339,10 @@
         <mxCell id="_sFxexL5DxIo7r4vKxPR-2" parent="_sFxexL5DxIo7r4vKxPR-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#B3B3B3;glass=0;dashed=1;" value="" vertex="1">
           <mxGeometry height="340" width="280" x="1300" y="580" as="geometry" />
         </mxCell>
-        <mxCell id="_sFxexL5DxIo7r4vKxPR-3" parent="_sFxexL5DxIo7r4vKxPR-1" style="swimlane;fontStyle=2;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;" value="&lt;span style=&quot;font-style: normal;&quot;&gt;VårdRapport&lt;/span&gt;" vertex="1">
+        <mxCell id="_sFxexL5DxIo7r4vKxPR-3" parent="_sFxexL5DxIo7r4vKxPR-1" style="swimlane;fontStyle=2;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;" value="&lt;span style=&quot;&quot;&gt;VårdRapport&lt;/span&gt;" vertex="1">
           <mxGeometry height="208" width="200" x="310" y="230" as="geometry" />
         </mxCell>
-        <mxCell id="_sFxexL5DxIo7r4vKxPR-4" parent="_sFxexL5DxIo7r4vKxPR-3" style="text;strokeColor=#36393d;fillColor=#f9f7ed;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=2" value="+ register: Enum" vertex="1">
+        <mxCell id="_sFxexL5DxIo7r4vKxPR-4" parent="_sFxexL5DxIo7r4vKxPR-3" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=2;fontColor=#333333;" value="+ register: Enum" vertex="1">
           <mxGeometry height="26" width="200" y="26" as="geometry" />
         </mxCell>
         <mxCell id="_sFxexL5DxIo7r4vKxPR-5" parent="_sFxexL5DxIo7r4vKxPR-3" style="text;strokeColor=#36393d;fillColor=#f9f7ed;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=2" value="+ mottagningsId: UID" vertex="1">
@@ -1432,7 +1432,7 @@
             <mxPoint x="656" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_sFxexL5DxIo7r4vKxPR-32" edge="1" parent="_sFxexL5DxIo7r4vKxPR-1" source="_sFxexL5DxIo7r4vKxPR-29" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" target="_sFxexL5DxIo7r4vKxPR-3" value="">
+        <mxCell id="_sFxexL5DxIo7r4vKxPR-32" edge="1" parent="_sFxexL5DxIo7r4vKxPR-1" source="_sFxexL5DxIo7r4vKxPR-29" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;dashed=1;" target="_sFxexL5DxIo7r4vKxPR-3" value="">
           <mxGeometry relative="1" width="160" as="geometry">
             <mxPoint x="760" y="830" as="sourcePoint" />
             <mxPoint x="806" y="750" as="targetPoint" />
@@ -1521,7 +1521,7 @@
         <mxCell id="_sFxexL5DxIo7r4vKxPR-54" parent="_sFxexL5DxIo7r4vKxPR-51" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ datum: Date" vertex="1">
           <mxGeometry height="26" width="170" y="78" as="geometry" />
         </mxCell>
-        <mxCell id="_sFxexL5DxIo7r4vKxPR-55" edge="1" parent="_sFxexL5DxIo7r4vKxPR-1" source="_sFxexL5DxIo7r4vKxPR-18" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" target="_sFxexL5DxIo7r4vKxPR-3" value="">
+        <mxCell id="_sFxexL5DxIo7r4vKxPR-55" edge="1" parent="_sFxexL5DxIo7r4vKxPR-1" source="_sFxexL5DxIo7r4vKxPR-18" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;dashed=1;" target="_sFxexL5DxIo7r4vKxPR-3" value="">
           <mxGeometry relative="1" width="160" as="geometry">
             <mxPoint x="770" y="563" as="sourcePoint" />
             <mxPoint x="660" y="554" as="targetPoint" />
@@ -1542,7 +1542,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_sFxexL5DxIo7r4vKxPR-58" parent="_sFxexL5DxIo7r4vKxPR-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;" value="MultiSomatiskAkutvårdKontakt" vertex="1">
-          <mxGeometry height="156" width="210" x="220" y="767" as="geometry" />
+          <mxGeometry height="156" width="210" x="215" y="789" as="geometry" />
         </mxCell>
         <mxCell id="_sFxexL5DxIo7r4vKxPR-59" parent="_sFxexL5DxIo7r4vKxPR-58" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ akutverksamhet: Enum(1)" vertex="1">
           <mxGeometry height="26" width="210" y="26" as="geometry" />
@@ -1655,7 +1655,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_sFxexL5DxIo7r4vKxPR-83" parent="_sFxexL5DxIo7r4vKxPR-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;" value="PsykiatriskÖppenvårdkontakt" vertex="1">
-          <mxGeometry height="52" width="250" x="450" y="767" as="geometry" />
+          <mxGeometry height="52" width="250" x="445" y="789" as="geometry" />
         </mxCell>
         <mxCell id="_sFxexL5DxIo7r4vKxPR-84" parent="_sFxexL5DxIo7r4vKxPR-83" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ yrkeskategoriKoder: String[1..*] {SOSNYK}" vertex="1">
           <mxGeometry height="26" width="250" y="26" as="geometry" />
@@ -1706,7 +1706,7 @@
         <mxCell id="_sFxexL5DxIo7r4vKxPR-95" parent="_sFxexL5DxIo7r4vKxPR-94" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ OrdinationsOrsak: Enum" vertex="1">
           <mxGeometry height="26" width="190" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="_sFxexL5DxIo7r4vKxPR-96" edge="1" parent="_sFxexL5DxIo7r4vKxPR-1" source="_sFxexL5DxIo7r4vKxPR-94" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" target="_sFxexL5DxIo7r4vKxPR-3" value="">
+        <mxCell id="_sFxexL5DxIo7r4vKxPR-96" edge="1" parent="_sFxexL5DxIo7r4vKxPR-1" source="_sFxexL5DxIo7r4vKxPR-94" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;dashed=1;" target="_sFxexL5DxIo7r4vKxPR-3" value="">
           <mxGeometry relative="1" width="160" as="geometry">
             <mxPoint x="380" y="520" as="sourcePoint" />
             <mxPoint x="423" y="460" as="targetPoint" />
