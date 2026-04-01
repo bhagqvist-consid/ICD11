@@ -1378,16 +1378,16 @@
         <mxCell id="_sFxexL5DxIo7r4vKxPR-15" parent="_sFxexL5DxIo7r4vKxPR-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;" value="Vårdgivare" vertex="1">
           <mxGeometry height="130" width="140" x="84" y="310" as="geometry" />
         </mxCell>
-        <mxCell id="s6z7XZBaNlYtOQ1B1Y1B-8" parent="_sFxexL5DxIo7r4vKxPR-15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ huvudman: String" vertex="1">
+        <mxCell id="s6z7XZBaNlYtOQ1B1Y1B-9" parent="_sFxexL5DxIo7r4vKxPR-15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ vårdgivare: String" vertex="1">
           <mxGeometry height="26" width="140" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="s6z7XZBaNlYtOQ1B1Y1B-9" parent="_sFxexL5DxIo7r4vKxPR-15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ vårdgivare: String" vertex="1">
+        <mxCell id="s6z7XZBaNlYtOQ1B1Y1B-8" parent="_sFxexL5DxIo7r4vKxPR-15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ (huvudman): String" vertex="1">
           <mxGeometry height="26" width="140" y="52" as="geometry" />
         </mxCell>
-        <mxCell id="_sFxexL5DxIo7r4vKxPR-16" parent="_sFxexL5DxIo7r4vKxPR-15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ sjukhus: String" vertex="1">
+        <mxCell id="_sFxexL5DxIo7r4vKxPR-16" parent="_sFxexL5DxIo7r4vKxPR-15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ (sjukhus): String" vertex="1">
           <mxGeometry height="26" width="140" y="78" as="geometry" />
         </mxCell>
-        <mxCell id="_sFxexL5DxIo7r4vKxPR-17" parent="_sFxexL5DxIo7r4vKxPR-15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ klinik: String" vertex="1">
+        <mxCell id="_sFxexL5DxIo7r4vKxPR-17" parent="_sFxexL5DxIo7r4vKxPR-15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ (klinik): String" vertex="1">
           <mxGeometry height="26" width="140" y="104" as="geometry" />
         </mxCell>
         <mxCell id="_sFxexL5DxIo7r4vKxPR-18" parent="_sFxexL5DxIo7r4vKxPR-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;" value="&lt;i&gt;VårdkontaktRapport&lt;/i&gt;" vertex="1">
