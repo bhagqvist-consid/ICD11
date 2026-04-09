@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.6" pages="8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" version="29.6.6" pages="9">
   <diagram name="Liggande" id="XqzHAMIrGUZNiZZ9pNJX">
     <mxGraphModel dx="1540" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -2762,7 +2762,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Logisk DB 0.2" id="A00PM0ks_DIdTCPXUJjx">
-    <mxGraphModel dx="1102" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="952" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="qBD0SSKtjTDn5vg17114-0" />
         <mxCell id="qBD0SSKtjTDn5vg17114-1" parent="qBD0SSKtjTDn5vg17114-0" />
@@ -3599,6 +3599,61 @@
             <mxPoint x="970" y="1048" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="P2VSMTotGIaF0JyS5T5c" name="Indatamodell">
+    <mxGraphModel dx="706" dy="413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GNJ8DgqyE6jDZYz6R6AH-16" edge="1" parent="1" source="GNJ8DgqyE6jDZYz6R6AH-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GNJ8DgqyE6jDZYz6R6AH-11" value="Beskriver ett">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GNJ8DgqyE6jDZYz6R6AH-1" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#82b366;" value="&lt;i&gt;VårdkontaktRapport&lt;/i&gt;" vertex="1">
+          <mxGeometry height="78" width="220" x="390" y="393" as="geometry" />
+        </mxCell>
+        <mxCell id="GNJ8DgqyE6jDZYz6R6AH-2" parent="GNJ8DgqyE6jDZYz6R6AH-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ vårdkontaktId: String" vertex="1">
+          <mxGeometry height="26" width="220" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GNJ8DgqyE6jDZYz6R6AH-3" parent="GNJ8DgqyE6jDZYz6R6AH-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value=". . ." vertex="1">
+          <mxGeometry height="26" width="220" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="GNJ8DgqyE6jDZYz6R6AH-4" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="Kluster" vertex="1">
+          <mxGeometry height="130" width="290" x="700" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="GNJ8DgqyE6jDZYz6R6AH-5" parent="GNJ8DgqyE6jDZYz6R6AH-4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ kodKlusterRaw: String" vertex="1">
+          <mxGeometry height="26" width="290" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GNJ8DgqyE6jDZYz6R6AH-6" parent="GNJ8DgqyE6jDZYz6R6AH-4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ foundationUriKlusterRaw: String" vertex="1">
+          <mxGeometry height="26" width="290" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="GNJ8DgqyE6jDZYz6R6AH-7" parent="GNJ8DgqyE6jDZYz6R6AH-4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ beteckning: String" vertex="1">
+          <mxGeometry height="26" width="290" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="GNJ8DgqyE6jDZYz6R6AH-18" parent="GNJ8DgqyE6jDZYz6R6AH-4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ matchandeTermFoundationUri: String[0..1]" vertex="1">
+          <mxGeometry height="26" width="290" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="GNJ8DgqyE6jDZYz6R6AH-17" edge="1" parent="1" source="GNJ8DgqyE6jDZYz6R6AH-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="GNJ8DgqyE6jDZYz6R6AH-4" value="Beskrivs med minst 1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GNJ8DgqyE6jDZYz6R6AH-11" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e1d5e7;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#9673a6;" value="&lt;span&gt;Hälsotillstånd_ICD11&lt;/span&gt;" vertex="1">
+          <mxGeometry height="104" width="170" x="760" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="GNJ8DgqyE6jDZYz6R6AH-12" parent="GNJ8DgqyE6jDZYz6R6AH-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ linjärisering: String" vertex="1">
+          <mxGeometry height="26" width="170" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GNJ8DgqyE6jDZYz6R6AH-13" parent="GNJ8DgqyE6jDZYz6R6AH-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ release: String" vertex="1">
+          <mxGeometry height="26" width="170" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="GNJ8DgqyE6jDZYz6R6AH-14" parent="GNJ8DgqyE6jDZYz6R6AH-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ språk: Enum (sv, en)" vertex="1">
+          <mxGeometry height="26" width="170" y="78" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;color: windowtext;&quot;&gt;Enligt&amp;nbsp;&lt;a href=&quot;https://icd.who.int/en/docs/icd11-license.pdf&quot;&gt;licensvillkoren&lt;/a&gt;&amp;nbsp;”1.2.3. Incorporation of Classifications into a software product, in data transmission and storage must &lt;span style=&quot;background: yellow;&quot;&gt;include Classifications code, title and URI.”&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;" link="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;color:windowtext&quot;&gt;med &lt;a href=&quot;https://icd.who.int/en/docs/icd11-license.pdf&quot;&gt;licensvillkoren&lt;/a&gt;&#xa;”1.2.3. Incorporation of Classifications into a software product, in data&#xa;transmission and storage must &lt;span style=&quot;background:yellow;mso-highlight:&#xa;yellow&quot;&gt;include Classifications code, title and URI.”&lt;/span&gt; &lt;/span&gt;&lt;/p&gt;" id="GNJ8DgqyE6jDZYz6R6AH-19">
+          <mxCell parent="1" style="text;whiteSpace=wrap;html=1;fontSize=14;spacing=8;verticalAlign=middle;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1">
+            <mxGeometry height="80" width="280" x="380" y="544" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
