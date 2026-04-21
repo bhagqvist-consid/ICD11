@@ -3710,6 +3710,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="kHXM3sAqBaesNm4lx1lS-27" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="kHXM3sAqBaesNm4lx1lS-22" value="Behov av förändringar">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="990" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="YcHV1frDyPvhb6lLLF7e-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=18;" value="SoS hantering av hälsodataregister med ICD-11" vertex="1">
           <mxGeometry height="250" width="250" x="660" y="385" as="geometry" />
         </mxCell>
@@ -3791,7 +3798,7 @@
             <mxPoint x="520" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kHXM3sAqBaesNm4lx1lS-26" edge="1" parent="1" source="kHXM3sAqBaesNm4lx1lS-22" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="YcHV1frDyPvhb6lLLF7e-1">
+        <mxCell id="kHXM3sAqBaesNm4lx1lS-26" edge="1" parent="1" source="kHXM3sAqBaesNm4lx1lS-22" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="YcHV1frDyPvhb6lLLF7e-1" value="Information om förändringar">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="950" y="740" />
@@ -3811,6 +3818,9 @@
         </mxCell>
         <mxCell id="kHXM3sAqBaesNm4lx1lS-25" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="kHXM3sAqBaesNm4lx1lS-22" value="Statistik">
           <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="630" />
+            </Array>
             <mxPoint x="950" y="700" as="sourcePoint" />
             <mxPoint x="1035" y="797" as="targetPoint" />
           </mxGeometry>
