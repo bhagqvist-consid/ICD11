@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" pages="10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36 Edg/146.0.0.0" pages="11">
   <diagram name="Liggande" id="XqzHAMIrGUZNiZZ9pNJX">
     <mxGraphModel dx="1540" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -3658,7 +3658,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="oNsbSYQQejzJjxTEeKkB" name="Kontext">
-    <mxGraphModel dx="2507" dy="1490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2149" dy="1277" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3688,6 +3688,88 @@
         </mxCell>
         <mxCell id="YcHV1frDyPvhb6lLLF7e-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="60" width="120" x="1210" y="830" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Kopia av Kontext" id="eQWYdCncWQH4OiOWX_e5">
+    <mxGraphModel dx="1074" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="rmlYERBAPkprWpRpoh6n-0" />
+        <mxCell id="rmlYERBAPkprWpRpoh6n-1" parent="rmlYERBAPkprWpRpoh6n-0" />
+        <mxCell id="7bxigm4QTxU7NcSw5OR1-4" edge="1" parent="rmlYERBAPkprWpRpoh6n-1" source="rmlYERBAPkprWpRpoh6n-2" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="rmlYERBAPkprWpRpoh6n-3" value="Beställning av mjöl">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7bxigm4QTxU7NcSw5OR1-5" edge="1" parent="rmlYERBAPkprWpRpoh6n-1" source="rmlYERBAPkprWpRpoh6n-2" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="rmlYERBAPkprWpRpoh6n-4" value="Beställning av insatsvara">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7bxigm4QTxU7NcSw5OR1-6" edge="1" parent="rmlYERBAPkprWpRpoh6n-1" source="rmlYERBAPkprWpRpoh6n-2" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="rmlYERBAPkprWpRpoh6n-7" value="Bröd">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7bxigm4QTxU7NcSw5OR1-11" edge="1" parent="rmlYERBAPkprWpRpoh6n-1" source="rmlYERBAPkprWpRpoh6n-2" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="7bxigm4QTxU7NcSw5OR1-9" value="Fakturaunderlag + Kontering">
+          <mxGeometry relative="1" x="0.0126" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="880" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rmlYERBAPkprWpRpoh6n-2" parent="rmlYERBAPkprWpRpoh6n-1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=18;" value="Bageri" vertex="1">
+          <mxGeometry height="190" width="190" x="560" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="7bxigm4QTxU7NcSw5OR1-3" edge="1" parent="rmlYERBAPkprWpRpoh6n-1" source="rmlYERBAPkprWpRpoh6n-3" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="rmlYERBAPkprWpRpoh6n-2" value="Mjöl">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rmlYERBAPkprWpRpoh6n-3" parent="rmlYERBAPkprWpRpoh6n-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Kvarn" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="7bxigm4QTxU7NcSw5OR1-0" edge="1" parent="rmlYERBAPkprWpRpoh6n-1" source="rmlYERBAPkprWpRpoh6n-4" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="rmlYERBAPkprWpRpoh6n-2" value="Salt + Jäst + Fett">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rmlYERBAPkprWpRpoh6n-4" parent="rmlYERBAPkprWpRpoh6n-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Bagerigrossiter" vertex="1">
+          <mxGeometry height="60" width="120" x="550" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="7bxigm4QTxU7NcSw5OR1-1" edge="1" parent="rmlYERBAPkprWpRpoh6n-1" source="rmlYERBAPkprWpRpoh6n-5" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="rmlYERBAPkprWpRpoh6n-2" value="El">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rmlYERBAPkprWpRpoh6n-5" parent="rmlYERBAPkprWpRpoh6n-1" style="rounded=0;whiteSpace=wrap;html=1;" value="ELON" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="7bxigm4QTxU7NcSw5OR1-2" edge="1" parent="rmlYERBAPkprWpRpoh6n-1" source="rmlYERBAPkprWpRpoh6n-6" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="rmlYERBAPkprWpRpoh6n-2" value="Vatten">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rmlYERBAPkprWpRpoh6n-6" parent="rmlYERBAPkprWpRpoh6n-1" style="rounded=0;whiteSpace=wrap;html=1;" value="VA" vertex="1">
+          <mxGeometry height="60" width="120" x="270" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="7bxigm4QTxU7NcSw5OR1-7" edge="1" parent="rmlYERBAPkprWpRpoh6n-1" source="rmlYERBAPkprWpRpoh6n-7" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="rmlYERBAPkprWpRpoh6n-2" value="Kundorder">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rmlYERBAPkprWpRpoh6n-7" parent="rmlYERBAPkprWpRpoh6n-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Butikskedja" vertex="1">
+          <mxGeometry height="60" width="120" x="860" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="7bxigm4QTxU7NcSw5OR1-8" edge="1" parent="rmlYERBAPkprWpRpoh6n-1" source="rmlYERBAPkprWpRpoh6n-10" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="rmlYERBAPkprWpRpoh6n-2" value="Betalningsinformation">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rmlYERBAPkprWpRpoh6n-10" parent="rmlYERBAPkprWpRpoh6n-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Bank" vertex="1">
+          <mxGeometry height="60" width="120" x="920" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="7bxigm4QTxU7NcSw5OR1-10" edge="1" parent="rmlYERBAPkprWpRpoh6n-1" source="7bxigm4QTxU7NcSw5OR1-9" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="rmlYERBAPkprWpRpoh6n-2" value="Redovisning">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7bxigm4QTxU7NcSw5OR1-9" parent="rmlYERBAPkprWpRpoh6n-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Fakturakonsult" vertex="1">
+          <mxGeometry height="60" width="120" x="940" y="490" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
