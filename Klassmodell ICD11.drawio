@@ -4061,6 +4061,9 @@
         <mxCell id="vg4AgAAKxYwJyxT5cxr9-35" parent="vg4AgAAKxYwJyxT5cxr9-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="SCB" vertex="1">
           <mxGeometry height="60" width="120" x="1060" y="350" as="geometry" />
         </mxCell>
+        <mxCell id="zgL36MWprbTeF2sZmx34-0" parent="vg4AgAAKxYwJyxT5cxr9-1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 30pt; font-family: &amp;quot;Noto Sans&amp;quot;; color: black; font-weight: bold;&quot;&gt;var finns ICD-11-koder?&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="510" x="1080" y="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
