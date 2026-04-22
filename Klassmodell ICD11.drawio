@@ -3861,7 +3861,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Kontext 0.2" id="X0W_huKrYkiac0NR9DG-">
-    <mxGraphModel dx="2474" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1662" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="vg4AgAAKxYwJyxT5cxr9-0" />
         <mxCell id="vg4AgAAKxYwJyxT5cxr9-1" parent="vg4AgAAKxYwJyxT5cxr9-0" />
@@ -3927,7 +3927,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vg4AgAAKxYwJyxT5cxr9-11" edge="1" parent="vg4AgAAKxYwJyxT5cxr9-1" source="vg4AgAAKxYwJyxT5cxr9-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeColor=#CC00CC;fontSize=14;" target="vg4AgAAKxYwJyxT5cxr9-33" value="Rapportering">
+        <mxCell id="vg4AgAAKxYwJyxT5cxr9-11" edge="1" parent="vg4AgAAKxYwJyxT5cxr9-1" source="vg4AgAAKxYwJyxT5cxr9-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeColor=#000000;fontSize=14;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;strokeWidth=2;" target="vg4AgAAKxYwJyxT5cxr9-33" value="Rapportering">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="760" y="750" />
@@ -4038,7 +4038,7 @@
         <mxCell id="vg4AgAAKxYwJyxT5cxr9-31" parent="vg4AgAAKxYwJyxT5cxr9-1" style="rounded=0;whiteSpace=wrap;html=1;" value="EHM" vertex="1">
           <mxGeometry height="60" width="120" x="1150" y="680" as="geometry" />
         </mxCell>
-        <mxCell id="vg4AgAAKxYwJyxT5cxr9-32" edge="1" parent="vg4AgAAKxYwJyxT5cxr9-1" source="vg4AgAAKxYwJyxT5cxr9-33" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#CC00CC;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;curved=1;" target="vg4AgAAKxYwJyxT5cxr9-12" value="ICD-11">
+        <mxCell id="vg4AgAAKxYwJyxT5cxr9-32" edge="1" parent="vg4AgAAKxYwJyxT5cxr9-1" source="vg4AgAAKxYwJyxT5cxr9-33" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;curved=1;strokeWidth=2;" target="vg4AgAAKxYwJyxT5cxr9-12" value="ICD-11">
           <mxGeometry relative="1" x="-0.0226" y="10" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
