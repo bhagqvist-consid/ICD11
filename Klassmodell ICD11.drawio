@@ -3658,52 +3658,52 @@
     </mxGraphModel>
   </diagram>
   <diagram id="oNsbSYQQejzJjxTEeKkB" name="Kontext">
-    <mxGraphModel dx="1253" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1178" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="kHXM3sAqBaesNm4lx1lS-3" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="YcHV1frDyPvhb6lLLF7e-9" value="Statistik">
+        <mxCell id="kHXM3sAqBaesNm4lx1lS-3" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;curved=1;" target="YcHV1frDyPvhb6lLLF7e-9" value="Statistik">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kHXM3sAqBaesNm4lx1lS-4" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="YcHV1frDyPvhb6lLLF7e-7" value="Statistik">
+        <mxCell id="kHXM3sAqBaesNm4lx1lS-4" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;curved=1;" target="YcHV1frDyPvhb6lLLF7e-7" value="&lt;span style=&quot;&quot;&gt;Statistik&lt;/span&gt;">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kHXM3sAqBaesNm4lx1lS-7" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="YcHV1frDyPvhb6lLLF7e-8" value="Svar">
+        <mxCell id="kHXM3sAqBaesNm4lx1lS-7" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;curved=1;" target="YcHV1frDyPvhb6lLLF7e-8" value="Svar">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1010" y="470" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kHXM3sAqBaesNm4lx1lS-10" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="YcHV1frDyPvhb6lLLF7e-4" value="Leverans">
+        <mxCell id="kHXM3sAqBaesNm4lx1lS-10" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;curved=1;" target="YcHV1frDyPvhb6lLLF7e-4" value="Leverans">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="620" y="610" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kHXM3sAqBaesNm4lx1lS-11" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="YcHV1frDyPvhb6lLLF7e-3" value="Leverans">
+        <mxCell id="kHXM3sAqBaesNm4lx1lS-11" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;curved=1;" target="YcHV1frDyPvhb6lLLF7e-3" value="Leverans">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="460" y="550" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kHXM3sAqBaesNm4lx1lS-15" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="kHXM3sAqBaesNm4lx1lS-13" value="Svar">
+        <mxCell id="kHXM3sAqBaesNm4lx1lS-15" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;curved=1;" target="kHXM3sAqBaesNm4lx1lS-13" value="Svar">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="750" y="340" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kHXM3sAqBaesNm4lx1lS-16" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="kHXM3sAqBaesNm4lx1lS-13" value="Registerutdrag">
+        <mxCell id="kHXM3sAqBaesNm4lx1lS-16" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;curved=1;" target="kHXM3sAqBaesNm4lx1lS-13" value="Registerutdrag">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="680" y="300" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kHXM3sAqBaesNm4lx1lS-18" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="YcHV1frDyPvhb6lLLF7e-2" value="Svar på frågor om&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;inrapportering&lt;/span&gt;">
+        <mxCell id="kHXM3sAqBaesNm4lx1lS-18" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;curved=1;" target="YcHV1frDyPvhb6lLLF7e-2" value="Svar på frågor om&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;inrapportering&lt;/span&gt;">
           <mxGeometry relative="1" x="-0.25" y="13" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
@@ -3711,7 +3711,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kHXM3sAqBaesNm4lx1lS-27" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="kHXM3sAqBaesNm4lx1lS-22" value="Behov av förändringar +&lt;div&gt;kunskapsfrågor&lt;/div&gt;">
+        <mxCell id="kHXM3sAqBaesNm4lx1lS-27" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;curved=1;" target="kHXM3sAqBaesNm4lx1lS-22" value="Behov av förändringar +&lt;div&gt;kunskapsfrågor&lt;/div&gt;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="990" y="670" />
@@ -3721,10 +3721,10 @@
         <mxCell id="YcHV1frDyPvhb6lLLF7e-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=18;" value="SoS hantering av hälsodataregister med ICD-11" vertex="1">
           <mxGeometry height="250" width="250" x="660" y="385" as="geometry" />
         </mxCell>
-        <mxCell id="kHXM3sAqBaesNm4lx1lS-1" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-2" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="YcHV1frDyPvhb6lLLF7e-1" value="Vårdkontakt med diagnos">
+        <mxCell id="kHXM3sAqBaesNm4lx1lS-1" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-2" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;curved=1;" target="YcHV1frDyPvhb6lLLF7e-1" value="Vårdkontakt med diagnos">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kHXM3sAqBaesNm4lx1lS-17" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-2" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="YcHV1frDyPvhb6lLLF7e-1" value="Frågor&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;inrapportering&lt;/span&gt;">
+        <mxCell id="kHXM3sAqBaesNm4lx1lS-17" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-2" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;curved=1;" target="YcHV1frDyPvhb6lLLF7e-1" value="Frågor&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;inrapportering&lt;/span&gt;">
           <mxGeometry relative="1" x="0.414" y="8" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
@@ -3735,7 +3735,7 @@
         <mxCell id="YcHV1frDyPvhb6lLLF7e-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Regioner" vertex="1">
           <mxGeometry height="60" width="120" x="350" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="kHXM3sAqBaesNm4lx1lS-12" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-3" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="YcHV1frDyPvhb6lLLF7e-1" value="Beställning">
+        <mxCell id="kHXM3sAqBaesNm4lx1lS-12" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-3" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;curved=1;" target="YcHV1frDyPvhb6lLLF7e-1" value="Beställning">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="500" y="600" />
@@ -3745,7 +3745,7 @@
         <mxCell id="YcHV1frDyPvhb6lLLF7e-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Media" vertex="1">
           <mxGeometry height="60" width="120" x="260" y="680" as="geometry" />
         </mxCell>
-        <mxCell id="kHXM3sAqBaesNm4lx1lS-8" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-4" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="YcHV1frDyPvhb6lLLF7e-1" value="Beställning">
+        <mxCell id="kHXM3sAqBaesNm4lx1lS-8" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-4" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;curved=1;" target="YcHV1frDyPvhb6lLLF7e-1" value="Beställning">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="660" y="650" />
@@ -3755,16 +3755,16 @@
         <mxCell id="YcHV1frDyPvhb6lLLF7e-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Regering etc" vertex="1">
           <mxGeometry height="60" width="120" x="500" y="810" as="geometry" />
         </mxCell>
-        <mxCell id="kHXM3sAqBaesNm4lx1lS-2" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-5" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="YcHV1frDyPvhb6lLLF7e-1" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Vårdkontakt med diagnos&lt;/span&gt;&#xa;&#xa;">
+        <mxCell id="kHXM3sAqBaesNm4lx1lS-2" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-5" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;curved=1;" target="YcHV1frDyPvhb6lLLF7e-1" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Vårdkontakt med diagnos&lt;/span&gt;&#xa;&#xa;">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YcHV1frDyPvhb6lLLF7e-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Privat vårdgivare" vertex="1">
           <mxGeometry height="60" width="120" x="190" y="440" as="geometry" />
         </mxCell>
-        <mxCell id="YcHV1frDyPvhb6lLLF7e-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="OECD, WHO, NOMESCO, EUROSTAT" vertex="1">
-          <mxGeometry height="60" width="120" x="750" y="820" as="geometry" />
+        <mxCell id="YcHV1frDyPvhb6lLLF7e-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="OECD, NOMESCO, EUROSTAT" vertex="1">
+          <mxGeometry height="60" width="120" x="590" y="910" as="geometry" />
         </mxCell>
-        <mxCell id="kHXM3sAqBaesNm4lx1lS-6" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-8" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="YcHV1frDyPvhb6lLLF7e-1" value="Beställning">
+        <mxCell id="kHXM3sAqBaesNm4lx1lS-6" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-8" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;curved=1;" target="YcHV1frDyPvhb6lLLF7e-1" value="Beställning">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1000" y="560" />
@@ -3777,7 +3777,7 @@
         <mxCell id="YcHV1frDyPvhb6lLLF7e-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Myndighet" vertex="1">
           <mxGeometry height="60" width="120" x="1010" y="230" as="geometry" />
         </mxCell>
-        <mxCell id="kHXM3sAqBaesNm4lx1lS-14" edge="1" parent="1" source="kHXM3sAqBaesNm4lx1lS-13" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="YcHV1frDyPvhb6lLLF7e-1" value="Frågor">
+        <mxCell id="kHXM3sAqBaesNm4lx1lS-14" edge="1" parent="1" source="kHXM3sAqBaesNm4lx1lS-13" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;curved=1;" target="YcHV1frDyPvhb6lLLF7e-1" value="Frågor">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="860" y="330" />
@@ -3787,13 +3787,13 @@
         <mxCell id="kHXM3sAqBaesNm4lx1lS-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Allmänheten" vertex="1">
           <mxGeometry height="60" width="120" x="840" y="150" as="geometry" />
         </mxCell>
-        <mxCell id="kHXM3sAqBaesNm4lx1lS-20" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;edgeStyle=none;endSize=17;" target="YcHV1frDyPvhb6lLLF7e-5" value="">
+        <mxCell id="kHXM3sAqBaesNm4lx1lS-20" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;edgeStyle=none;endSize=17;curved=1;" target="YcHV1frDyPvhb6lLLF7e-5" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="430" y="410" as="sourcePoint" />
             <mxPoint x="760" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kHXM3sAqBaesNm4lx1lS-21" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-5" style="endArrow=none;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;edgeStyle=none;endSize=17;endFill=0;" value="">
+        <mxCell id="kHXM3sAqBaesNm4lx1lS-21" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-5" style="endArrow=none;html=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;edgeStyle=none;endSize=17;endFill=0;curved=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
               <mxPoint x="400" y="350" />
@@ -3802,7 +3802,7 @@
             <mxPoint x="510" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kHXM3sAqBaesNm4lx1lS-26" edge="1" parent="1" source="kHXM3sAqBaesNm4lx1lS-22" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="YcHV1frDyPvhb6lLLF7e-1" value="Information om förändringar +&amp;nbsp;&lt;div&gt;kunskapssvar&lt;/div&gt;">
+        <mxCell id="kHXM3sAqBaesNm4lx1lS-26" edge="1" parent="1" source="kHXM3sAqBaesNm4lx1lS-22" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;curved=1;" target="YcHV1frDyPvhb6lLLF7e-1" value="Information om förändringar +&amp;nbsp;&lt;div&gt;kunskapssvar&lt;/div&gt;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="950" y="740" />
@@ -3812,15 +3812,15 @@
         <mxCell id="kHXM3sAqBaesNm4lx1lS-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="EHM" vertex="1">
           <mxGeometry height="60" width="120" x="1030" y="690" as="geometry" />
         </mxCell>
-        <mxCell id="kHXM3sAqBaesNm4lx1lS-24" edge="1" parent="1" source="kHXM3sAqBaesNm4lx1lS-23" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="YcHV1frDyPvhb6lLLF7e-1" value="ICD-11">
+        <mxCell id="kHXM3sAqBaesNm4lx1lS-24" edge="1" parent="1" source="kHXM3sAqBaesNm4lx1lS-23" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;curved=1;" target="YcHV1frDyPvhb6lLLF7e-1" value="ICD-11">
           <mxGeometry relative="1" x="-0.6831" y="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kHXM3sAqBaesNm4lx1lS-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="WHO" vertex="1">
-          <mxGeometry height="60" width="120" x="100" y="620" as="geometry" />
+          <mxGeometry height="60" width="120" x="760" y="860" as="geometry" />
         </mxCell>
-        <mxCell id="kHXM3sAqBaesNm4lx1lS-25" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;" target="kHXM3sAqBaesNm4lx1lS-22" value="Statistik">
+        <mxCell id="kHXM3sAqBaesNm4lx1lS-25" edge="1" parent="1" source="YcHV1frDyPvhb6lLLF7e-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;endArrow=classic;endSize=17;curved=1;" target="kHXM3sAqBaesNm4lx1lS-22" value="Statistik">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1080" y="630" />
@@ -3828,6 +3828,9 @@
             <mxPoint x="950" y="700" as="sourcePoint" />
             <mxPoint x="1035" y="797" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="cfloy3WSc-eCYAy-PyG--1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="SCB" vertex="1">
+          <mxGeometry height="60" width="120" x="1020" y="350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
