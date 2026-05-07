@@ -69,7 +69,7 @@
     Här kan du prova hur komponenten fungerar. Syftet är också att se vilken information
     som går att ta vara på, exempelvis för inhämtning, lagring och utläsning.
   </p>
-  <p>Utgåva = 2025-01, Linjärisering = MMS, Språk = Svenska</p>
+  <p>Utgåva = 2026-01, Linjärisering = MMS, Språk = Svenska</p>
 
   <table>
     <tr>
@@ -80,7 +80,7 @@
       </td>
     </tr>
     <tr>
-      <td>Vald kod</td>
+      <td>Kodkluster</td>
       <td><input class="output" type="text" id="paste-code" value="" readonly></td>
     </tr>
     <tr>
@@ -88,17 +88,17 @@
       <td><input class="output" type="text" id="paste-selectedText" value="" readonly></td>
     </tr>
     <tr>
-      <td>Huvuddiagnos</td>
+      <td>Stamkodens titel</td>
       <td><input class="output" type="text" id="paste-title" value="" readonly></td>
     </tr>
     <tr>
       <td>Söktext</td>
       <td><input class="output" type="text" id="paste-searchQuery" value="" readonly></td>
     </tr>
-    <tr>
+    <!--tr>
       <td>Linjärisering Uri</td>
       <td><input class="output" type="text" id="paste-linearizationUri" value="" readonly></td>
-    </tr>
+    </tr-->
     <tr>
       <td>Foundation Uri</td>
       <td><input class="output" type="text" id="paste-foundationUri" value="" readonly></td>
@@ -119,7 +119,7 @@
     const myCallbacks = {
       selectedEntityFunction: (selectedEntity) => {
         document.getElementById('paste-code').value = selectedEntity.code;
-        document.getElementById('paste-linearizationUri').value = selectedEntity.linearizationUri;
+        //document.getElementById('paste-linearizationUri').value = selectedEntity.linearizationUri;
         document.getElementById('paste-foundationUri').value = selectedEntity.foundationUri;
         document.getElementById('paste-searchQuery').value = selectedEntity.searchQuery;
         document.getElementById('paste-title').value = selectedEntity.title;
