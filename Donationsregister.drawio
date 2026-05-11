@@ -50,9 +50,16 @@
         <mxCell id="vmO4fVELBJI4xzzginw8-1" edge="1" parent="1" source="8-SjN_EHFgN-SorVCnXN-2" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;curved=0;" target="8-SjN_EHFgN-SorVCnXN-1" value="Invändning">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="170" y="260" />
-              <mxPoint x="260" y="240" />
-              <mxPoint x="330" y="280" />
+              <mxPoint x="170" y="280" />
+              <mxPoint x="240" y="260" />
+              <mxPoint x="320" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmO4fVELBJI4xzzginw8-29" edge="1" parent="1" source="8-SjN_EHFgN-SorVCnXN-2" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-1" value="Samtycke">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="400" />
             </Array>
           </mxGeometry>
         </mxCell>
