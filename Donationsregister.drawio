@@ -63,6 +63,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="vmO4fVELBJI4xzzginw8-31" edge="1" parent="1" source="8-SjN_EHFgN-SorVCnXN-2" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-1" value="Begäran om gallring">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="260" />
+              <mxPoint x="170" y="240" />
+              <mxPoint x="250" y="230" />
+              <mxPoint x="320" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="8-SjN_EHFgN-SorVCnXN-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Vårdnadshavare" vertex="1">
           <mxGeometry height="60" width="110" x="70" y="310" as="geometry" />
         </mxCell>
@@ -76,9 +86,19 @@
         <mxCell id="vmO4fVELBJI4xzzginw8-2" edge="1" parent="1" source="8-SjN_EHFgN-SorVCnXN-4" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-1" value="Invändning">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="160" y="550" />
-              <mxPoint x="280" y="560" />
-              <mxPoint x="340" y="520" />
+              <mxPoint x="190" y="540" />
+              <mxPoint x="260" y="550" />
+              <mxPoint x="320" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmO4fVELBJI4xzzginw8-32" edge="1" parent="1" source="8-SjN_EHFgN-SorVCnXN-4" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-1" value="Begäran om gallring">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="125" y="540" />
+              <mxPoint x="150" y="580" />
+              <mxPoint x="270" y="590" />
+              <mxPoint x="340" y="540" />
             </Array>
           </mxGeometry>
         </mxCell>
