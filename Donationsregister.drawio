@@ -86,7 +86,14 @@
           <mxGeometry height="60" width="110" x="70" y="450" as="geometry" />
         </mxCell>
         <mxCell id="vmO4fVELBJI4xzzginw8-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Donations-&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;koordinator&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="110" x="540" y="280" as="geometry" />
+          <mxGeometry height="60" width="110" x="580" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="vmO4fVELBJI4xzzginw8-30" edge="1" parent="1" source="vmO4fVELBJI4xzzginw8-4" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-1" value="Ansökan om&lt;div&gt;direktåtkomst&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="370" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="vmO4fVELBJI4xzzginw8-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="VHS" vertex="1">
           <mxGeometry height="60" width="110" x="570" y="350" as="geometry" />
