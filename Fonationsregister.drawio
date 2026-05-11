@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Sida-1" id="F3DC_KPKV7Cfi4B8QXFW">
+    <mxGraphModel dx="803" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8-SjN_EHFgN-SorVCnXN-8" edge="1" parent="1" source="8-SjN_EHFgN-SorVCnXN-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.238;exitY=0.11;exitDx=0;exitDy=0;exitPerimeter=0;" target="8-SjN_EHFgN-SorVCnXN-2" value="Underrättelse">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8-SjN_EHFgN-SorVCnXN-9" edge="1" parent="1" source="8-SjN_EHFgN-SorVCnXN-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-4" value="Underrättelse">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8-SjN_EHFgN-SorVCnXN-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="Donationsregister" vertex="1">
+          <mxGeometry height="140" width="140" x="290" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="8-SjN_EHFgN-SorVCnXN-5" edge="1" parent="1" source="8-SjN_EHFgN-SorVCnXN-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-1" value="Viljeyttring för&lt;div&gt;omyndig&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8-SjN_EHFgN-SorVCnXN-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Vårdnadshavare" vertex="1">
+          <mxGeometry height="60" width="110" x="70" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="8-SjN_EHFgN-SorVCnXN-7" edge="1" parent="1" source="8-SjN_EHFgN-SorVCnXN-4" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-1" value="Viljeyttring">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8-SjN_EHFgN-SorVCnXN-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Myndig individ" vertex="1">
+          <mxGeometry height="60" width="110" x="70" y="450" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
