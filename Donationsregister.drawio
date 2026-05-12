@@ -1,35 +1,36 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Sida-1" id="F3DC_KPKV7Cfi4B8QXFW">
-    <mxGraphModel dx="945" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="945" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="8-SjN_EHFgN-SorVCnXN-8" edge="1" parent="1" source="8-SjN_EHFgN-SorVCnXN-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.238;exitY=0.11;exitDx=0;exitDy=0;exitPerimeter=0;" target="8-SjN_EHFgN-SorVCnXN-2" value="Underrättelse">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="270" y="300" />
-              <mxPoint x="230" y="300" />
+              <mxPoint x="300" y="210" />
+              <mxPoint x="260" y="210" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="8-SjN_EHFgN-SorVCnXN-9" edge="1" parent="1" source="8-SjN_EHFgN-SorVCnXN-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-4" value="Underrättelse">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="290" y="510" />
+              <mxPoint x="320" y="420" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="vmO4fVELBJI4xzzginw8-5" edge="1" parent="1" source="8-SjN_EHFgN-SorVCnXN-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="vmO4fVELBJI4xzzginw8-4" value="Donationsstatus">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="490" y="400" />
+              <mxPoint x="520" y="310" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="vmO4fVELBJI4xzzginw8-6" edge="1" parent="1" source="8-SjN_EHFgN-SorVCnXN-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="vmO4fVELBJI4xzzginw8-3" value="Viljeyttring">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="480" y="350" />
+              <mxPoint x="480" y="260" />
+              <mxPoint x="560" y="220" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -38,133 +39,153 @@
         </mxCell>
         <mxCell id="vmO4fVELBJI4xzzginw8-19" edge="1" parent="1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3333FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#3333FF;labelBackgroundColor=default;endArrow=classic;" target="vmO4fVELBJI4xzzginw8-17">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="560" y="440" as="sourcePoint" />
+            <mxPoint x="590" y="350" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8-SjN_EHFgN-SorVCnXN-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="Donationsregister" vertex="1">
-          <mxGeometry height="140" width="140" x="290" y="330" as="geometry" />
+          <mxGeometry height="140" width="140" x="320" y="240" as="geometry" />
         </mxCell>
-        <mxCell id="8-SjN_EHFgN-SorVCnXN-5" edge="1" parent="1" source="8-SjN_EHFgN-SorVCnXN-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-1" value="Viljeyttring för&lt;div&gt;omyndig&lt;/div&gt;">
+        <mxCell id="8-SjN_EHFgN-SorVCnXN-5" edge="1" parent="1" source="8-SjN_EHFgN-SorVCnXN-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-1" value="Viljeyttring för&lt;div&gt;individ&lt;/div&gt;">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vmO4fVELBJI4xzzginw8-1" edge="1" parent="1" source="8-SjN_EHFgN-SorVCnXN-2" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;curved=0;" target="8-SjN_EHFgN-SorVCnXN-1" value="Invändning">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="170" y="280" />
-              <mxPoint x="240" y="260" />
-              <mxPoint x="320" y="290" />
+              <mxPoint x="200" y="190" />
+              <mxPoint x="270" y="170" />
+              <mxPoint x="340" y="210" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="vmO4fVELBJI4xzzginw8-29" edge="1" parent="1" source="8-SjN_EHFgN-SorVCnXN-2" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-1" value="Samtycke">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="160" y="400" />
+              <mxPoint x="190" y="310" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="vmO4fVELBJI4xzzginw8-31" edge="1" parent="1" source="8-SjN_EHFgN-SorVCnXN-2" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-1" value="Begäran om gallring">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="130" y="260" />
-              <mxPoint x="170" y="240" />
-              <mxPoint x="250" y="230" />
-              <mxPoint x="320" y="260" />
+              <mxPoint x="160" y="170" />
+              <mxPoint x="200" y="150" />
+              <mxPoint x="280" y="140" />
+              <mxPoint x="350" y="170" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8-SjN_EHFgN-SorVCnXN-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Vårdnadshavare" vertex="1">
-          <mxGeometry height="60" width="110" x="70" y="310" as="geometry" />
+        <mxCell id="8-SjN_EHFgN-SorVCnXN-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Vårdnadshavare för individ under 15 år" vertex="1">
+          <mxGeometry height="60" width="110" x="60" y="210" as="geometry" />
         </mxCell>
         <mxCell id="8-SjN_EHFgN-SorVCnXN-7" edge="1" parent="1" source="8-SjN_EHFgN-SorVCnXN-4" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-1" value="Viljeyttring">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="240" y="440" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vmO4fVELBJI4xzzginw8-2" edge="1" parent="1" source="8-SjN_EHFgN-SorVCnXN-4" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-1" value="Invändning">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="190" y="540" />
-              <mxPoint x="260" y="550" />
-              <mxPoint x="320" y="510" />
+              <mxPoint x="220" y="450" />
+              <mxPoint x="290" y="460" />
+              <mxPoint x="350" y="420" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="vmO4fVELBJI4xzzginw8-32" edge="1" parent="1" source="8-SjN_EHFgN-SorVCnXN-4" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-1" value="Begäran om gallring">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="125" y="540" />
-              <mxPoint x="150" y="580" />
-              <mxPoint x="270" y="590" />
-              <mxPoint x="340" y="540" />
+              <mxPoint x="155" y="450" />
+              <mxPoint x="180" y="490" />
+              <mxPoint x="300" y="500" />
+              <mxPoint x="370" y="450" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8-SjN_EHFgN-SorVCnXN-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Myndig individ" vertex="1">
-          <mxGeometry height="60" width="110" x="70" y="450" as="geometry" />
+        <mxCell id="8-SjN_EHFgN-SorVCnXN-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Individ minst 15 år" vertex="1">
+          <mxGeometry height="60" width="110" x="100" y="360" as="geometry" />
         </mxCell>
-        <mxCell id="vmO4fVELBJI4xzzginw8-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Donations-&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;koordinator&lt;/span&gt;" vertex="1">
-          <mxGeometry height="60" width="110" x="580" y="270" as="geometry" />
+        <mxCell id="vmO4fVELBJI4xzzginw8-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Sjukvård" vertex="1">
+          <mxGeometry height="60" width="110" x="610" y="180" as="geometry" />
         </mxCell>
-        <mxCell id="vmO4fVELBJI4xzzginw8-30" edge="1" parent="1" source="vmO4fVELBJI4xzzginw8-4" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-1" value="Ansökan om&lt;div&gt;direktåtkomst&lt;/div&gt;">
+        <mxCell id="vmO4fVELBJI4xzzginw8-30" edge="1" parent="1" source="vmO4fVELBJI4xzzginw8-3" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-1" value="Ansökan om&lt;div&gt;direktåtkomst&lt;/div&gt;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="510" y="370" />
+              <mxPoint x="580" y="230" />
+              <mxPoint x="530" y="270" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="vmO4fVELBJI4xzzginw8-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="VHS" vertex="1">
-          <mxGeometry height="60" width="110" x="570" y="350" as="geometry" />
+          <mxGeometry height="60" width="110" x="600" y="260" as="geometry" />
         </mxCell>
         <mxCell id="vmO4fVELBJI4xzzginw8-9" edge="1" parent="1" source="vmO4fVELBJI4xzzginw8-7" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-1" value="Folkbokföringsadress">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="410" y="520" />
+              <mxPoint x="440" y="430" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="vmO4fVELBJI4xzzginw8-16" edge="1" parent="1" source="vmO4fVELBJI4xzzginw8-7" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-1" value="Avisering">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="480" y="570" />
-              <mxPoint x="500" y="500" />
-              <mxPoint x="480" y="460" />
+              <mxPoint x="510" y="480" />
+              <mxPoint x="530" y="410" />
+              <mxPoint x="510" y="370" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="vmO4fVELBJI4xzzginw8-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Skatteverket" vertex="1">
-          <mxGeometry height="60" width="110" x="350" y="550" as="geometry" />
+          <mxGeometry height="60" width="110" x="380" y="460" as="geometry" />
         </mxCell>
-        <mxCell id="vmO4fVELBJI4xzzginw8-11" edge="1" parent="1" source="vmO4fVELBJI4xzzginw8-10" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-1" value="Identitet">
+        <mxCell id="vmO4fVELBJI4xzzginw8-11" edge="1" parent="1" source="vmO4fVELBJI4xzzginw8-10" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3333FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#3333FF;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-1" value="eID">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vmO4fVELBJI4xzzginw8-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Sweden Connect (DIGG)" vertex="1">
-          <mxGeometry height="60" width="110" x="400" y="160" as="geometry" />
+        <mxCell id="vmO4fVELBJI4xzzginw8-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3333FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#3333FF;fillColor=default;" value="Sweden Connect (DIGG)" vertex="1">
+          <mxGeometry height="60" width="110" x="430" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="vmO4fVELBJI4xzzginw8-13" edge="1" parent="1" source="vmO4fVELBJI4xzzginw8-12" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-1" value="Identitet">
+        <mxCell id="vmO4fVELBJI4xzzginw8-13" edge="1" parent="1" source="vmO4fVELBJI4xzzginw8-12" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3333FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#3333FF;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-1" value="eID">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vmO4fVELBJI4xzzginw8-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Annan IDP" vertex="1">
-          <mxGeometry height="60" width="110" x="520" y="200" as="geometry" />
+        <mxCell id="vmO4fVELBJI4xzzginw8-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3333FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#3333FF;fillColor=default;" value="Annan IDP" vertex="1">
+          <mxGeometry height="60" width="110" x="550" y="110" as="geometry" />
         </mxCell>
         <mxCell id="vmO4fVELBJI4xzzginw8-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3333FF;fontColor=#3333FF;" value="Mina meddelanden (DIGG)" vertex="1">
-          <mxGeometry height="60" width="110" x="600" y="430" as="geometry" />
+          <mxGeometry height="60" width="110" x="630" y="340" as="geometry" />
         </mxCell>
         <mxCell id="vmO4fVELBJI4xzzginw8-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3333FF;fontColor=#3333FF;" value="Utskrift och kuvertering" vertex="1">
-          <mxGeometry height="60" width="110" x="550" y="500" as="geometry" />
+          <mxGeometry height="60" width="110" x="580" y="410" as="geometry" />
         </mxCell>
-        <mxCell id="vmO4fVELBJI4xzzginw8-22" edge="1" parent="1" source="vmO4fVELBJI4xzzginw8-21" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-1" value="&lt;span data-path-to-node=&quot;0&quot; data-index-in-node=&quot;24&quot;&gt;Inloggningskvitto&lt;/span&gt;">
+        <mxCell id="vmO4fVELBJI4xzzginw8-22" edge="1" parent="1" source="vmO4fVELBJI4xzzginw8-21" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3333FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#3333FF;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-1" value="&lt;span data-path-to-node=&quot;0&quot; data-index-in-node=&quot;24&quot;&gt;Inloggningskvitto&lt;/span&gt;">
           <mxGeometry relative="1" x="-0.3658" as="geometry">
             <mxPoint y="-1" as="offset" />
             <Array as="points">
-              <mxPoint x="360" y="270" />
+              <mxPoint x="390" y="180" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vmO4fVELBJI4xzzginw8-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="1177" vertex="1">
-          <mxGeometry height="60" width="110" x="270" y="140" as="geometry" />
+        <mxCell id="vmO4fVELBJI4xzzginw8-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3333FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#3333FF;fillColor=default;" value="1177" vertex="1">
+          <mxGeometry height="60" width="110" x="300" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rN_Xq4Zumf5QhY3kbC1u-1" edge="1" parent="1" source="8-SjN_EHFgN-SorVCnXN-4" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-1" value="Eget personnr">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="380" />
+            </Array>
+            <mxPoint x="300" y="418" as="sourcePoint" />
+            <mxPoint x="414" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rN_Xq4Zumf5QhY3kbC1u-2" edge="1" parent="1" source="8-SjN_EHFgN-SorVCnXN-2" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-1" value="Individs personnr">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="240" />
+            </Array>
+            <mxPoint x="260" y="288" as="sourcePoint" />
+            <mxPoint x="374" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rN_Xq4Zumf5QhY3kbC1u-4" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Kontextuell DFD&lt;/h1&gt;&lt;p&gt;Logiskt dataflöde&lt;br&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;Fysiskt dataflöde&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="95" width="320" x="40" y="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
