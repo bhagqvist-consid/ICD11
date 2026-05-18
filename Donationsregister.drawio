@@ -225,7 +225,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tupl63VWHScNrBiLvC70" name="Sida-2">
-    <mxGraphModel dx="867" dy="978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1040" dy="1173" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -233,7 +233,7 @@
           <mxGeometry height="95" width="320" x="40" y="40" as="geometry" />
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-2" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Enskild" vertex="1">
-          <mxGeometry height="104" width="140" x="80" y="473" as="geometry" />
+          <mxGeometry height="104" width="140" x="80" y="486" as="geometry" />
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-3" parent="cSQvczOItniMIweKlyAm-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="PersId: UID" vertex="1">
           <mxGeometry height="26" width="140" y="26" as="geometry" />
@@ -245,7 +245,7 @@
           <mxGeometry height="26" width="140" y="78" as="geometry" />
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-6" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Anmälan" vertex="1">
-          <mxGeometry height="130" width="140" x="330" y="460" as="geometry" />
+          <mxGeometry height="156" width="140" x="330" y="460" as="geometry" />
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-7" parent="cSQvczOItniMIweKlyAm-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Löpnr: Integer" vertex="1">
           <mxGeometry height="26" width="140" y="26" as="geometry" />
@@ -253,11 +253,14 @@
         <mxCell id="cSQvczOItniMIweKlyAm-9" parent="cSQvczOItniMIweKlyAm-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Regdatum: Date" vertex="1">
           <mxGeometry height="26" width="140" y="52" as="geometry" />
         </mxCell>
-        <mxCell id="cSQvczOItniMIweKlyAm-5" parent="cSQvczOItniMIweKlyAm-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Inställning: Enum" vertex="1">
+        <mxCell id="cSQvczOItniMIweKlyAm-5" parent="cSQvczOItniMIweKlyAm-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Inställning: Ja/Nej" vertex="1">
           <mxGeometry height="26" width="140" y="78" as="geometry" />
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-23" parent="cSQvczOItniMIweKlyAm-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Status: Enum" vertex="1">
           <mxGeometry height="26" width="140" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="cSQvczOItniMIweKlyAm-59" parent="cSQvczOItniMIweKlyAm-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="HL-Id: String[0..1}" vertex="1">
+          <mxGeometry height="26" width="140" y="130" as="geometry" />
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-11" edge="1" parent="1" source="cSQvczOItniMIweKlyAm-2" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" target="cSQvczOItniMIweKlyAm-6" value="1">
           <mxGeometry relative="1" x="-1" y="3" as="geometry">
@@ -266,25 +269,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-12" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Undantag" vertex="1">
-          <mxGeometry height="78" width="140" x="330" y="680" as="geometry" />
+          <mxGeometry height="78" width="140" x="330" y="720" as="geometry" />
         </mxCell>
-        <mxCell id="cSQvczOItniMIweKlyAm-15" parent="cSQvczOItniMIweKlyAm-12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Kod: String" vertex="1">
+        <mxCell id="cSQvczOItniMIweKlyAm-15" parent="cSQvczOItniMIweKlyAm-12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Nr: Integer" vertex="1">
           <mxGeometry height="26" width="140" y="26" as="geometry" />
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-13" parent="cSQvczOItniMIweKlyAm-12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Benämning: String" vertex="1">
           <mxGeometry height="26" width="140" y="52" as="geometry" />
         </mxCell>
-        <mxCell id="cSQvczOItniMIweKlyAm-24" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="VH Samtycke" vertex="1">
-          <mxGeometry height="104" width="140" x="580" y="473" as="geometry" />
+        <mxCell id="cSQvczOItniMIweKlyAm-24" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Samtycke" vertex="1">
+          <mxGeometry height="130" width="180" x="570" y="473" as="geometry" />
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-25" parent="cSQvczOItniMIweKlyAm-24" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Pnr: Char(12)" vertex="1">
-          <mxGeometry height="26" width="140" y="26" as="geometry" />
+          <mxGeometry height="26" width="180" y="26" as="geometry" />
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-27" parent="cSQvczOItniMIweKlyAm-24" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Frågedatum: Date" vertex="1">
-          <mxGeometry height="26" width="140" y="52" as="geometry" />
+          <mxGeometry height="26" width="180" y="52" as="geometry" />
         </mxCell>
-        <mxCell id="cSQvczOItniMIweKlyAm-28" parent="cSQvczOItniMIweKlyAm-24" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Status: Enum" vertex="1">
-          <mxGeometry height="26" width="140" y="78" as="geometry" />
+        <mxCell id="cSQvczOItniMIweKlyAm-61" parent="cSQvczOItniMIweKlyAm-24" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Svarsdatum: Date[0..1]" vertex="1">
+          <mxGeometry height="26" width="180" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="cSQvczOItniMIweKlyAm-28" parent="cSQvczOItniMIweKlyAm-24" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Status: Enum(Väntar, Ja, Nej)" vertex="1">
+          <mxGeometry height="26" width="180" y="104" as="geometry" />
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-29" edge="1" parent="1" source="cSQvczOItniMIweKlyAm-6" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" target="cSQvczOItniMIweKlyAm-24" value="1">
           <mxGeometry relative="1" x="-1" y="3" as="geometry">
@@ -298,40 +304,40 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-32" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Underrättelse" vertex="1">
-          <mxGeometry height="312" width="140" x="330" y="120" as="geometry" />
+          <mxGeometry height="312" width="180" x="310" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="cSQvczOItniMIweKlyAm-36" parent="cSQvczOItniMIweKlyAm-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Metod: Enum" vertex="1">
-          <mxGeometry height="26" width="140" y="26" as="geometry" />
-        </mxCell>
-        <mxCell id="cSQvczOItniMIweKlyAm-47" parent="cSQvczOItniMIweKlyAm-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Typ: Enum" vertex="1">
-          <mxGeometry height="26" width="140" y="52" as="geometry" />
+        <mxCell id="cSQvczOItniMIweKlyAm-47" parent="cSQvczOItniMIweKlyAm-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Typ: Enum(Brev, eBrev)" vertex="1">
+          <mxGeometry height="26" width="180" y="26" as="geometry" />
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-34" parent="cSQvczOItniMIweKlyAm-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Namn: String" vertex="1">
-          <mxGeometry height="26" width="140" y="78" as="geometry" />
+          <mxGeometry height="26" width="180" y="52" as="geometry" />
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-35" parent="cSQvczOItniMIweKlyAm-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Adress1: String" vertex="1">
-          <mxGeometry height="26" width="140" y="104" as="geometry" />
+          <mxGeometry height="26" width="180" y="78" as="geometry" />
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-37" parent="cSQvczOItniMIweKlyAm-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Adress2: String" vertex="1">
-          <mxGeometry height="26" width="140" y="130" as="geometry" />
+          <mxGeometry height="26" width="180" y="104" as="geometry" />
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-43" parent="cSQvczOItniMIweKlyAm-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Postnr: String" vertex="1">
-          <mxGeometry height="26" width="140" y="156" as="geometry" />
+          <mxGeometry height="26" width="180" y="130" as="geometry" />
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-44" parent="cSQvczOItniMIweKlyAm-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Postort: String" vertex="1">
-          <mxGeometry height="26" width="140" y="182" as="geometry" />
+          <mxGeometry height="26" width="180" y="156" as="geometry" />
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-45" parent="cSQvczOItniMIweKlyAm-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Land: String" vertex="1">
-          <mxGeometry height="26" width="140" y="208" as="geometry" />
+          <mxGeometry height="26" width="180" y="182" as="geometry" />
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-46" parent="cSQvczOItniMIweKlyAm-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Datum: Date" vertex="1">
-          <mxGeometry height="26" width="140" y="234" as="geometry" />
+          <mxGeometry height="26" width="180" y="208" as="geometry" />
         </mxCell>
-        <mxCell id="cSQvczOItniMIweKlyAm-58" parent="cSQvczOItniMIweKlyAm-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Status: Enum" vertex="1">
-          <mxGeometry height="26" width="140" y="260" as="geometry" />
+        <mxCell id="cSQvczOItniMIweKlyAm-58" parent="cSQvczOItniMIweKlyAm-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Status: Enum(Köad, Skickad)" vertex="1">
+          <mxGeometry height="26" width="180" y="234" as="geometry" />
         </mxCell>
-        <mxCell id="cSQvczOItniMIweKlyAm-57" parent="cSQvczOItniMIweKlyAm-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="PDF: Blob" vertex="1">
-          <mxGeometry height="26" width="140" y="286" as="geometry" />
+        <mxCell id="cSQvczOItniMIweKlyAm-57" parent="cSQvczOItniMIweKlyAm-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="SKV-kod: String" vertex="1">
+          <mxGeometry height="26" width="180" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="cSQvczOItniMIweKlyAm-62" parent="cSQvczOItniMIweKlyAm-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="PDF: Blob" vertex="1">
+          <mxGeometry height="26" width="180" y="286" as="geometry" />
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-48" edge="1" parent="1" source="cSQvczOItniMIweKlyAm-6" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;" target="cSQvczOItniMIweKlyAm-12" value="">
           <mxGeometry relative="1" as="geometry">
@@ -366,7 +372,7 @@
           <mxGeometry relative="1" x="0.0003" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="650" y="250" />
+              <mxPoint x="660" y="250" />
             </Array>
             <mxPoint x="300" y="443" as="sourcePoint" />
             <mxPoint x="470" y="220" as="targetPoint" />
