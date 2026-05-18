@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Sida-1" id="F3DC_KPKV7Cfi4B8QXFW">
-    <mxGraphModel dx="945" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1130" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,12 +29,13 @@
         <mxCell id="vmO4fVELBJI4xzzginw8-6" edge="1" parent="1" source="8-SjN_EHFgN-SorVCnXN-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="vmO4fVELBJI4xzzginw8-3" value="Viljeyttring">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="480" y="260" />
+              <mxPoint x="470" y="250" />
+              <mxPoint x="510" y="230" />
               <mxPoint x="560" y="220" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vmO4fVELBJI4xzzginw8-18" edge="1" parent="1" source="8-SjN_EHFgN-SorVCnXN-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3333FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#3333FF;labelBackgroundColor=default;endArrow=classic;" target="vmO4fVELBJI4xzzginw8-14" value="Utskick">
+        <mxCell id="vmO4fVELBJI4xzzginw8-18" edge="1" parent="1" source="8-SjN_EHFgN-SorVCnXN-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3333FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#3333FF;labelBackgroundColor=default;endArrow=classic;" target="vmO4fVELBJI4xzzginw8-14" value="Utskick&lt;div&gt;(Underrättelse)&lt;/div&gt;">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vmO4fVELBJI4xzzginw8-19" edge="1" parent="1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3333FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#3333FF;labelBackgroundColor=default;endArrow=classic;" target="vmO4fVELBJI4xzzginw8-17">
@@ -137,17 +138,11 @@
         <mxCell id="vmO4fVELBJI4xzzginw8-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Skatteverket" vertex="1">
           <mxGeometry height="60" width="110" x="380" y="460" as="geometry" />
         </mxCell>
-        <mxCell id="vmO4fVELBJI4xzzginw8-11" edge="1" parent="1" source="vmO4fVELBJI4xzzginw8-10" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3333FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#3333FF;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-1" value="eID">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="vmO4fVELBJI4xzzginw8-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="Sweden Connect (DIGG)" vertex="1">
+          <mxGeometry height="60" width="110" x="330" y="57.5" as="geometry" />
         </mxCell>
-        <mxCell id="vmO4fVELBJI4xzzginw8-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3333FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#3333FF;fillColor=default;" value="Sweden Connect (DIGG)" vertex="1">
-          <mxGeometry height="60" width="110" x="430" y="70" as="geometry" />
-        </mxCell>
-        <mxCell id="vmO4fVELBJI4xzzginw8-13" edge="1" parent="1" source="vmO4fVELBJI4xzzginw8-12" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3333FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#3333FF;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-1" value="eID">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="vmO4fVELBJI4xzzginw8-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3333FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#3333FF;fillColor=default;" value="Annan IDP" vertex="1">
-          <mxGeometry height="60" width="110" x="550" y="110" as="geometry" />
+        <mxCell id="vmO4fVELBJI4xzzginw8-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="Sambandstorget&lt;div&gt;(INERA)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="460" y="75" as="geometry" />
         </mxCell>
         <mxCell id="vmO4fVELBJI4xzzginw8-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3333FF;fontColor=#3333FF;" value="Mina meddelanden (DIGG)" vertex="1">
           <mxGeometry height="60" width="110" x="630" y="340" as="geometry" />
@@ -155,16 +150,14 @@
         <mxCell id="vmO4fVELBJI4xzzginw8-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3333FF;fontColor=#3333FF;" value="Utskrift och kuvertering" vertex="1">
           <mxGeometry height="60" width="110" x="580" y="410" as="geometry" />
         </mxCell>
-        <mxCell id="vmO4fVELBJI4xzzginw8-22" edge="1" parent="1" source="vmO4fVELBJI4xzzginw8-21" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3333FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#3333FF;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-1" value="&lt;span data-path-to-node=&quot;0&quot; data-index-in-node=&quot;24&quot;&gt;Inloggningskvitto&lt;/span&gt;">
-          <mxGeometry relative="1" x="-0.3658" as="geometry">
-            <mxPoint y="-1" as="offset" />
+        <mxCell id="vmO4fVELBJI4xzzginw8-22" edge="1" parent="1" source="8-SjN_EHFgN-SorVCnXN-2" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-1" value="&lt;span data-path-to-node=&quot;0&quot; data-index-in-node=&quot;24&quot;&gt;SAML-biljett&lt;/span&gt;">
+          <mxGeometry relative="1" x="0.2656" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="390" y="180" />
+              <mxPoint x="170" y="330" />
+              <mxPoint x="250" y="330" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="vmO4fVELBJI4xzzginw8-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3333FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#3333FF;fillColor=default;" value="1177" vertex="1">
-          <mxGeometry height="60" width="110" x="300" y="50" as="geometry" />
         </mxCell>
         <mxCell id="rN_Xq4Zumf5QhY3kbC1u-1" edge="1" parent="1" source="8-SjN_EHFgN-SorVCnXN-4" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-1" value="Eget personnr">
           <mxGeometry relative="1" as="geometry">
@@ -184,8 +177,49 @@
             <mxPoint x="374" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rN_Xq4Zumf5QhY3kbC1u-4" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Kontextuell DFD&lt;/h1&gt;&lt;p&gt;Logiskt dataflöde&lt;br&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;Fysiskt dataflöde&lt;/font&gt;&lt;/p&gt;" vertex="1">
+        <mxCell id="rN_Xq4Zumf5QhY3kbC1u-4" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Kontextuell DFD&lt;/h1&gt;&lt;p&gt;Logiskt dataflöde&lt;br&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;Faktiskt dataflöde&lt;/font&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="95" width="320" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bssn7t3Lm4cZQMGQEqIL-1" edge="1" parent="1" source="vmO4fVELBJI4xzzginw8-3" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-1" value="SAML-biljett">
+          <mxGeometry relative="1" x="-0.216" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="550" y="200" />
+              <mxPoint x="480" y="200" />
+              <mxPoint x="460" y="210" />
+            </Array>
+            <mxPoint x="230" y="330" as="sourcePoint" />
+            <mxPoint x="418" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bssn7t3Lm4cZQMGQEqIL-2" edge="1" parent="1" source="8-SjN_EHFgN-SorVCnXN-4" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="330" />
+            </Array>
+            <mxPoint x="630" y="440" as="sourcePoint" />
+            <mxPoint x="190" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bssn7t3Lm4cZQMGQEqIL-4" edge="1" parent="1" source="vmO4fVELBJI4xzzginw8-10" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8-SjN_EHFgN-SorVCnXN-1" value="&lt;div&gt;Metadata&lt;/div&gt;&lt;div&gt;IDP/SP&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.2295" y="-6" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="420" y="170" />
+              <mxPoint x="400" y="200" />
+            </Array>
+            <mxPoint x="440" y="465" as="sourcePoint" />
+            <mxPoint x="420" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bssn7t3Lm4cZQMGQEqIL-6" edge="1" parent="1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" target="vmO4fVELBJI4xzzginw8-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="150" />
+            </Array>
+            <mxPoint x="420" y="170" as="sourcePoint" />
+            <mxPoint x="490" y="150" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
