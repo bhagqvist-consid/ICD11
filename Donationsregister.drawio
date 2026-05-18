@@ -225,7 +225,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tupl63VWHScNrBiLvC70" name="Sida-2">
-    <mxGraphModel dx="1040" dy="1173" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="717" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -303,7 +303,7 @@
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-31" connectable="0" parent="cSQvczOItniMIweKlyAm-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="0..2" vertex="1">
           <mxGeometry relative="1" x="0.9044" as="geometry">
-            <mxPoint x="-15" y="-15" as="offset" />
+            <mxPoint x="-9" y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-32" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Underrättelse" vertex="1">
@@ -350,11 +350,13 @@
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-49" connectable="0" parent="cSQvczOItniMIweKlyAm-48" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" value="0..n" vertex="1">
           <mxGeometry relative="1" x="-1" as="geometry">
-            <mxPoint y="20" as="offset" />
+            <mxPoint x="2" y="21" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-50" connectable="0" parent="cSQvczOItniMIweKlyAm-48" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" value="0..n" vertex="1">
-          <mxGeometry relative="1" x="1" as="geometry" />
+          <mxGeometry relative="1" x="1" as="geometry">
+            <mxPoint x="-4" y="-5" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-51" edge="1" parent="1" source="cSQvczOItniMIweKlyAm-2" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;" target="cSQvczOItniMIweKlyAm-32" value="">
           <mxGeometry relative="1" x="0.0003" as="geometry">
@@ -368,7 +370,7 @@
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-53" connectable="0" parent="cSQvczOItniMIweKlyAm-51" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" value="0..1" vertex="1">
           <mxGeometry relative="1" x="1" as="geometry">
-            <mxPoint x="-10" as="offset" />
+            <mxPoint x="-17" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-54" edge="1" parent="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;" target="cSQvczOItniMIweKlyAm-32" value="">
