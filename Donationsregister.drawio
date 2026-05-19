@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="2">
+<mxfile host="app.diagrams.net" pages="3">
   <diagram name="Kontextuell DFD" id="F3DC_KPKV7Cfi4B8QXFW">
     <mxGraphModel dx="1172" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -408,6 +408,114 @@
         </mxCell>
         <mxCell id="AWJU5LGrgw8Wl6eSMpXB-5" parent="1" style="text;whiteSpace=wrap;html=1;strokeColor=default;" value="0 = E-tjänst eID&lt;br&gt;1 = E-tjänst anonym&lt;br&gt;2 = Brev, e-post&lt;br&gt;3 = Migrerat&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="76" width="120" x="170" y="694" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="E-LDhWCQmroWOV0PNqT9" name="Livscykelmodeller">
+    <mxGraphModel dx="1172" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CYJjucyrZ51cZex0hds5-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Livscykelmodeller&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="40" width="320" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CwNYav6DD1hfnaNcgPTv-1" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="305" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CwNYav6DD1hfnaNcgPTv-2" edge="1" parent="1" source="CwNYav6DD1hfnaNcgPTv-1" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;align=left;" value="&lt;div style=&quot;&quot;&gt;E: Ny&lt;/div&gt;&lt;div style=&quot;&quot;&gt;T: Påbörja personkontroll&amp;nbsp;&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.6667" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="320" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CwNYav6DD1hfnaNcgPTv-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Inkommen" vertex="1">
+          <mxGeometry height="40" width="120" x="260" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="CwNYav6DD1hfnaNcgPTv-20" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="305" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="CwNYav6DD1hfnaNcgPTv-21" edge="1" parent="1" source="CwNYav6DD1hfnaNcgPTv-7" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;align=left;" target="CwNYav6DD1hfnaNcgPTv-22" value="E: Personkontroll ok &lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;amp; eID &amp;amp; &amp;gt;=15 år&lt;div&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.3333" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="140" y="210" />
+              <mxPoint x="140" y="520" />
+            </Array>
+            <mxPoint x="330" y="440" as="sourcePoint" />
+            <mxPoint x="330" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CwNYav6DD1hfnaNcgPTv-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Godkänd" vertex="1">
+          <mxGeometry height="40" width="120" x="260" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="CwNYav6DD1hfnaNcgPTv-23" edge="1" parent="1" source="CwNYav6DD1hfnaNcgPTv-22" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" target="CwNYav6DD1hfnaNcgPTv-20" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CwNYav6DD1hfnaNcgPTv-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Avbruten" vertex="1">
+          <mxGeometry height="40" width="120" x="526" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="CwNYav6DD1hfnaNcgPTv-25" edge="1" parent="1" source="CwNYav6DD1hfnaNcgPTv-24" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" target="CwNYav6DD1hfnaNcgPTv-26" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="511" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CwNYav6DD1hfnaNcgPTv-26" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="570" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="CwNYav6DD1hfnaNcgPTv-27" edge="1" parent="1" source="CwNYav6DD1hfnaNcgPTv-7" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;align=left;" value="E: Personkontroll fel&lt;div&gt;E: Ersatt av ny&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.7826" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="400" y="210.0344827586207" as="sourcePoint" />
+            <mxPoint x="606" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CwNYav6DD1hfnaNcgPTv-28" edge="1" parent="1" source="CwNYav6DD1hfnaNcgPTv-22" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" target="CwNYav6DD1hfnaNcgPTv-24" value="&lt;div style=&quot;text-align: left;&quot;&gt;E: Ersatt av ny&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.1176" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="390" y="570" as="sourcePoint" />
+            <mxPoint x="390" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CwNYav6DD1hfnaNcgPTv-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Väntar" vertex="1">
+          <mxGeometry height="40" width="120" x="260" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="CwNYav6DD1hfnaNcgPTv-32" edge="1" parent="1" source="CwNYav6DD1hfnaNcgPTv-7" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;align=left;" target="CwNYav6DD1hfnaNcgPTv-29" value="&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;E: Personkontroll ok &amp;amp; &amp;lt;15 år&lt;/span&gt;&lt;/div&gt;&lt;div&gt;T: Inhämta samtycke&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.3333" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="340" y="440" as="sourcePoint" />
+            <mxPoint x="320" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CwNYav6DD1hfnaNcgPTv-33" edge="1" parent="1" source="CwNYav6DD1hfnaNcgPTv-29" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;align=left;" target="CwNYav6DD1hfnaNcgPTv-24" value="&lt;div&gt;E: Ersatt av ny&lt;/div&gt;&lt;div&gt;E: Samtycke ej inkommit&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.7368" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="570" y="310" />
+            </Array>
+            <mxPoint x="364" y="310" as="sourcePoint" />
+            <mxPoint x="570" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CwNYav6DD1hfnaNcgPTv-34" edge="1" parent="1" source="CwNYav6DD1hfnaNcgPTv-7" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;align=left;" target="CwNYav6DD1hfnaNcgPTv-29" value="E: Personkontroll ok&amp;nbsp;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;amp; &amp;gt;=15 år &amp;amp; Anonym&lt;div&gt;T: Skicka underrättelse&lt;/div&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0714" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="150" y="210" />
+              <mxPoint x="150" y="310" />
+            </Array>
+            <mxPoint x="310" y="370" as="sourcePoint" />
+            <mxPoint x="320" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CwNYav6DD1hfnaNcgPTv-35" edge="1" parent="1" source="CwNYav6DD1hfnaNcgPTv-29" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;align=left;" target="CwNYav6DD1hfnaNcgPTv-22" value="E: Personkontroll ok&amp;nbsp;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;amp; &amp;gt;=15 år &amp;amp; Anonym&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;amp; svarsdatum passerat&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.3333" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="380" y="380" as="sourcePoint" />
+            <mxPoint x="380" y="440" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
