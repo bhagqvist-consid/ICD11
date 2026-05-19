@@ -247,7 +247,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tupl63VWHScNrBiLvC70" name="Konceptuell klassmodell">
-    <mxGraphModel dx="1406" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="970" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -279,7 +279,7 @@
           <mxGeometry height="26" width="140" y="182" as="geometry" />
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-6" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Anmälan" vertex="1">
-          <mxGeometry height="234" width="180" x="310" y="460" as="geometry" />
+          <mxGeometry height="286" width="180" x="310" y="460" as="geometry" />
         </mxCell>
         <mxCell id="AWJU5LGrgw8Wl6eSMpXB-1" parent="cSQvczOItniMIweKlyAm-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Id: UID" vertex="1">
           <mxGeometry height="26" width="180" y="26" as="geometry" />
@@ -305,6 +305,12 @@
         <mxCell id="cSQvczOItniMIweKlyAm-59" parent="cSQvczOItniMIweKlyAm-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Diarienr: String[0..1}" vertex="1">
           <mxGeometry height="26" width="180" y="208" as="geometry" />
         </mxCell>
+        <mxCell id="cA3AqRqYz5ItGcszVlXB-2" parent="cSQvczOItniMIweKlyAm-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Villkorsdatum: Date" vertex="1">
+          <mxGeometry height="26" width="180" y="234" as="geometry" />
+        </mxCell>
+        <mxCell id="cA3AqRqYz5ItGcszVlXB-3" parent="cSQvczOItniMIweKlyAm-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Villkor: Blob" vertex="1">
+          <mxGeometry height="26" width="180" y="260" as="geometry" />
+        </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-11" edge="1" parent="1" source="cSQvczOItniMIweKlyAm-2" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" target="cSQvczOItniMIweKlyAm-6" value="1">
           <mxGeometry relative="1" x="-1" y="3" as="geometry">
             <mxPoint x="220" y="430" as="sourcePoint" />
@@ -312,7 +318,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-12" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Undantag" vertex="1">
-          <mxGeometry height="78" width="140" x="330" y="780" as="geometry" />
+          <mxGeometry height="78" width="140" x="330" y="850" as="geometry" />
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-15" parent="cSQvczOItniMIweKlyAm-12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Nr: Integer" vertex="1">
           <mxGeometry height="26" width="140" y="26" as="geometry" />
