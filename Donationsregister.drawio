@@ -255,7 +255,7 @@
           <mxGeometry height="95" width="320" x="40" y="40" as="geometry" />
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-2" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Enskild" vertex="1">
-          <mxGeometry height="182" width="140" x="80" y="460" as="geometry" />
+          <mxGeometry height="208" width="140" x="80" y="460" as="geometry" />
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-3" parent="cSQvczOItniMIweKlyAm-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="PersId: UID" vertex="1">
           <mxGeometry height="26" width="140" y="26" as="geometry" />
@@ -269,11 +269,14 @@
         <mxCell id="cSQvczOItniMIweKlyAm-10" parent="cSQvczOItniMIweKlyAm-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Skyddad: Ja/Nej" vertex="1">
           <mxGeometry height="26" width="140" y="104" as="geometry" />
         </mxCell>
-        <mxCell id="AWJU5LGrgw8Wl6eSMpXB-3" parent="cSQvczOItniMIweKlyAm-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="FgPnr: Char(12)[0..1]" vertex="1">
+        <mxCell id="cA3AqRqYz5ItGcszVlXB-1" parent="cSQvczOItniMIweKlyAm-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Informerad: Date[0..1]" vertex="1">
           <mxGeometry height="26" width="140" y="130" as="geometry" />
         </mxCell>
-        <mxCell id="AWJU5LGrgw8Wl6eSMpXB-4" parent="cSQvczOItniMIweKlyAm-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Ändrad: Date[0..1]" vertex="1">
+        <mxCell id="AWJU5LGrgw8Wl6eSMpXB-3" parent="cSQvczOItniMIweKlyAm-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="FgPnr: Char(12)[0..1]" vertex="1">
           <mxGeometry height="26" width="140" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="AWJU5LGrgw8Wl6eSMpXB-4" parent="cSQvczOItniMIweKlyAm-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Ändrad: Date[0..1]" vertex="1">
+          <mxGeometry height="26" width="140" y="182" as="geometry" />
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-6" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Anmälan" vertex="1">
           <mxGeometry height="234" width="180" x="310" y="460" as="geometry" />
@@ -429,7 +432,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AWJU5LGrgw8Wl6eSMpXB-5" parent="1" style="text;whiteSpace=wrap;html=1;strokeColor=default;" value="0 = E-tjänst eID&lt;br&gt;1 = E-tjänst anonym&lt;br&gt;2 = Brev, e-post&lt;br&gt;3 = Migrerat&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="76" width="120" x="170" y="694" as="geometry" />
+          <mxGeometry height="76" width="120" x="170" y="746" as="geometry" />
         </mxCell>
         <mxCell id="rofCotYiQy4Rss-aS5TK-1" parent="1" style="text;whiteSpace=wrap;html=1;strokeColor=default;" value="0 = Inkommen&lt;br&gt;1 = Väntar&lt;br&gt;2 = Godkänd&lt;br&gt;3 = Avbruten&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="76" width="120" x="540" y="670" as="geometry" />
