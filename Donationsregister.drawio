@@ -268,7 +268,7 @@
         <mxCell id="cSQvczOItniMIweKlyAm-5" parent="cSQvczOItniMIweKlyAm-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Inställning: Ja/Nej" vertex="1">
           <mxGeometry height="26" width="180" y="104" as="geometry" />
         </mxCell>
-        <mxCell id="cSQvczOItniMIweKlyAm-23" parent="cSQvczOItniMIweKlyAm-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Status: Enum(Ink, Godk, Avbr)" vertex="1">
+        <mxCell id="cSQvczOItniMIweKlyAm-23" parent="cSQvczOItniMIweKlyAm-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Status: Enum(...)" vertex="1">
           <mxGeometry height="26" width="180" y="130" as="geometry" />
         </mxCell>
         <mxCell id="AWJU5LGrgw8Wl6eSMpXB-2" parent="cSQvczOItniMIweKlyAm-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Typ: Enum(...)" vertex="1">
@@ -409,6 +409,15 @@
         <mxCell id="AWJU5LGrgw8Wl6eSMpXB-5" parent="1" style="text;whiteSpace=wrap;html=1;strokeColor=default;" value="0 = E-tjänst eID&lt;br&gt;1 = E-tjänst anonym&lt;br&gt;2 = Brev, e-post&lt;br&gt;3 = Migrerat&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="76" width="120" x="170" y="694" as="geometry" />
         </mxCell>
+        <mxCell id="rofCotYiQy4Rss-aS5TK-1" parent="1" style="text;whiteSpace=wrap;html=1;strokeColor=default;" value="0 = Inkommen&lt;br&gt;1 = Väntar&lt;br&gt;2 = Godkänd&lt;br&gt;3 = Avbruten&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="76" width="120" x="540" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="rofCotYiQy4Rss-aS5TK-3" edge="1" parent="1" source="rofCotYiQy4Rss-aS5TK-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="cSQvczOItniMIweKlyAm-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="735" as="sourcePoint" />
+            <mxPoint x="320" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -516,6 +525,9 @@
             <mxPoint x="380" y="380" as="sourcePoint" />
             <mxPoint x="380" y="440" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="RBlGg7IKd_uOqaQZYLn9-1" parent="1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="Anmälan" vertex="1">
+          <mxGeometry height="26" width="80" x="120" y="102" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
