@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="3">
   <diagram name="Kontextuell DFD" id="F3DC_KPKV7Cfi4B8QXFW">
-    <mxGraphModel dx="638" dy="378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1036" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -250,7 +250,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tupl63VWHScNrBiLvC70" name="Konceptuell klassmodell">
-    <mxGraphModel dx="970" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1208" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -335,7 +335,7 @@
         <mxCell id="cSQvczOItniMIweKlyAm-24" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Samtycke" vertex="1">
           <mxGeometry height="130" width="180" x="590" y="486" as="geometry" />
         </mxCell>
-        <mxCell id="cSQvczOItniMIweKlyAm-25" parent="cSQvczOItniMIweKlyAm-24" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Pnr: Char(12)" vertex="1">
+        <mxCell id="cSQvczOItniMIweKlyAm-25" parent="cSQvczOItniMIweKlyAm-24" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Pnr: Char(12) / MD5?" vertex="1">
           <mxGeometry height="26" width="180" y="26" as="geometry" />
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-27" parent="cSQvczOItniMIweKlyAm-24" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Frågedatum: Date" vertex="1">
@@ -358,7 +358,7 @@
             <mxPoint x="-9" y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cSQvczOItniMIweKlyAm-32" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Underrättelse" vertex="1">
+        <mxCell id="cSQvczOItniMIweKlyAm-32" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Underrättelse (Transient)" vertex="1">
           <mxGeometry height="286" width="180" x="310" y="120" as="geometry" />
         </mxCell>
         <mxCell id="cSQvczOItniMIweKlyAm-47" parent="cSQvczOItniMIweKlyAm-32" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Typ: Enum(Brev, eBrev)" vertex="1">
