@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" pages="4">
+<mxfile host="app.diagrams.net" pages="5">
   <diagram name="Kontextuell DFD" id="F3DC_KPKV7Cfi4B8QXFW">
-    <mxGraphModel dx="1036" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1004" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -136,7 +136,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vmO4fVELBJI4xzzginw8-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Skatteverket" vertex="1">
-          <mxGeometry height="60" width="110" x="340" y="490" as="geometry" />
+          <mxGeometry height="60" width="110" x="340" y="525" as="geometry" />
         </mxCell>
         <mxCell id="vmO4fVELBJI4xzzginw8-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="Sweden Connect (DIGG)" vertex="1">
           <mxGeometry height="60" width="110" x="330" y="57.5" as="geometry" />
@@ -221,8 +221,8 @@
             <mxPoint x="490" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ez7D_KQtT1VtahEAUlYS-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="HL" vertex="1">
-          <mxGeometry height="60" width="110" x="500" y="470" as="geometry" />
+        <mxCell id="ez7D_KQtT1VtahEAUlYS-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Handläggare SoS" vertex="1">
+          <mxGeometry height="60" width="110" x="510" y="480" as="geometry" />
         </mxCell>
         <mxCell id="ez7D_KQtT1VtahEAUlYS-2" edge="1" parent="1" source="8-SjN_EHFgN-SorVCnXN-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="ez7D_KQtT1VtahEAUlYS-1" value="Rapporter">
           <mxGeometry relative="1" as="geometry">
@@ -249,46 +249,244 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram name="Kopia av Kontextuell DFD" id="AZVHNvrt_RzwwolmapF-">
+    <mxGraphModel dx="970" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="8KSmPP8pXirxxuNu3GOe-0" />
+        <mxCell id="8KSmPP8pXirxxuNu3GOe-1" parent="8KSmPP8pXirxxuNu3GOe-0" />
+        <mxCell id="8KSmPP8pXirxxuNu3GOe-2" edge="1" parent="8KSmPP8pXirxxuNu3GOe-1" source="8KSmPP8pXirxxuNu3GOe-8" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.238;exitY=0.11;exitDx=0;exitDy=0;exitPerimeter=0;" target="8KSmPP8pXirxxuNu3GOe-13" value="Meddelande">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="210" />
+              <mxPoint x="220" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8KSmPP8pXirxxuNu3GOe-3" edge="1" parent="8KSmPP8pXirxxuNu3GOe-1" source="8KSmPP8pXirxxuNu3GOe-8" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8KSmPP8pXirxxuNu3GOe-17" value="Meddelande">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8KSmPP8pXirxxuNu3GOe-5" edge="1" parent="8KSmPP8pXirxxuNu3GOe-1" source="8KSmPP8pXirxxuNu3GOe-8" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8KSmPP8pXirxxuNu3GOe-18" value="Viljeyttring">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="250" />
+              <mxPoint x="510" y="230" />
+              <mxPoint x="560" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8KSmPP8pXirxxuNu3GOe-6" edge="1" parent="8KSmPP8pXirxxuNu3GOe-1" source="8KSmPP8pXirxxuNu3GOe-8" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3333FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#3333FF;labelBackgroundColor=default;endArrow=classic;" target="8KSmPP8pXirxxuNu3GOe-26" value="Utskick&lt;div&gt;(Underrättelse)&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8KSmPP8pXirxxuNu3GOe-7" edge="1" parent="8KSmPP8pXirxxuNu3GOe-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3333FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#3333FF;labelBackgroundColor=default;endArrow=classic;" target="8KSmPP8pXirxxuNu3GOe-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="340" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8KSmPP8pXirxxuNu3GOe-8" parent="8KSmPP8pXirxxuNu3GOe-1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="Donationsregister" vertex="1">
+          <mxGeometry height="140" width="140" x="320" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="8KSmPP8pXirxxuNu3GOe-9" edge="1" parent="8KSmPP8pXirxxuNu3GOe-1" source="8KSmPP8pXirxxuNu3GOe-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8KSmPP8pXirxxuNu3GOe-8" value="Viljeyttring för&lt;div&gt;vårdnadstagare&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8KSmPP8pXirxxuNu3GOe-11" edge="1" parent="8KSmPP8pXirxxuNu3GOe-1" source="8KSmPP8pXirxxuNu3GOe-13" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8KSmPP8pXirxxuNu3GOe-8" value="Samtycke">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8KSmPP8pXirxxuNu3GOe-12" edge="1" parent="8KSmPP8pXirxxuNu3GOe-1" source="8KSmPP8pXirxxuNu3GOe-13" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8KSmPP8pXirxxuNu3GOe-8" value="Begäran om gallring">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="170" />
+              <mxPoint x="200" y="150" />
+              <mxPoint x="280" y="140" />
+              <mxPoint x="350" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8KSmPP8pXirxxuNu3GOe-13" parent="8KSmPP8pXirxxuNu3GOe-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Vårdnadshavare för individ under 15 år" vertex="1">
+          <mxGeometry height="60" width="110" x="60" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="8KSmPP8pXirxxuNu3GOe-14" edge="1" parent="8KSmPP8pXirxxuNu3GOe-1" source="8KSmPP8pXirxxuNu3GOe-17" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8KSmPP8pXirxxuNu3GOe-8" value="Viljeyttring">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8KSmPP8pXirxxuNu3GOe-16" edge="1" parent="8KSmPP8pXirxxuNu3GOe-1" source="8KSmPP8pXirxxuNu3GOe-17" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8KSmPP8pXirxxuNu3GOe-8" value="Begäran om gallring">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="155" y="450" />
+              <mxPoint x="180" y="490" />
+              <mxPoint x="300" y="500" />
+              <mxPoint x="370" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8KSmPP8pXirxxuNu3GOe-17" parent="8KSmPP8pXirxxuNu3GOe-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Individ minst 15 år" vertex="1">
+          <mxGeometry height="60" width="110" x="100" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="8KSmPP8pXirxxuNu3GOe-18" parent="8KSmPP8pXirxxuNu3GOe-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Sjukvård" vertex="1">
+          <mxGeometry height="60" width="110" x="600" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="8KSmPP8pXirxxuNu3GOe-19" edge="1" parent="8KSmPP8pXirxxuNu3GOe-1" source="8KSmPP8pXirxxuNu3GOe-18" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8KSmPP8pXirxxuNu3GOe-8" value="Ansökan om&lt;div&gt;direktåtkomst&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="230" />
+              <mxPoint x="530" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8KSmPP8pXirxxuNu3GOe-21" edge="1" parent="8KSmPP8pXirxxuNu3GOe-1" source="8KSmPP8pXirxxuNu3GOe-23" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8KSmPP8pXirxxuNu3GOe-8" value="Folkbokföringsadress">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8KSmPP8pXirxxuNu3GOe-22" edge="1" parent="8KSmPP8pXirxxuNu3GOe-1" source="8KSmPP8pXirxxuNu3GOe-23" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8KSmPP8pXirxxuNu3GOe-8" value="Avisering">
+          <mxGeometry relative="1" x="0.285" y="-2" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="500" y="450" />
+              <mxPoint x="460" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8KSmPP8pXirxxuNu3GOe-23" parent="8KSmPP8pXirxxuNu3GOe-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Skatteverket" vertex="1">
+          <mxGeometry height="60" width="110" x="340" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="8KSmPP8pXirxxuNu3GOe-24" parent="8KSmPP8pXirxxuNu3GOe-1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="IDP" vertex="1">
+          <mxGeometry height="60" width="110" x="370" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8KSmPP8pXirxxuNu3GOe-26" parent="8KSmPP8pXirxxuNu3GOe-1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3333FF;fontColor=#3333FF;" value="Mina meddelanden (DIGG)" vertex="1">
+          <mxGeometry height="60" width="110" x="650" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="8KSmPP8pXirxxuNu3GOe-27" parent="8KSmPP8pXirxxuNu3GOe-1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3333FF;fontColor=#3333FF;" value="Utskrift och kuvertering" vertex="1">
+          <mxGeometry height="60" width="110" x="600" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="8KSmPP8pXirxxuNu3GOe-31" parent="8KSmPP8pXirxxuNu3GOe-1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Kontextuell DFD&lt;/h1&gt;&lt;p&gt;Logiskt dataflöde&lt;br&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;Faktiskt dataflöde&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="90" width="230" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8KSmPP8pXirxxuNu3GOe-36" parent="8KSmPP8pXirxxuNu3GOe-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Handläggare SoS" vertex="1">
+          <mxGeometry height="60" width="110" x="510" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="8KSmPP8pXirxxuNu3GOe-37" edge="1" parent="8KSmPP8pXirxxuNu3GOe-1" source="8KSmPP8pXirxxuNu3GOe-8" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8KSmPP8pXirxxuNu3GOe-36" value="Rapporter">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="382" />
+            </Array>
+            <mxPoint x="710" y="382" as="sourcePoint" />
+            <mxPoint x="850" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8KSmPP8pXirxxuNu3GOe-38" edge="1" parent="8KSmPP8pXirxxuNu3GOe-1" source="8KSmPP8pXirxxuNu3GOe-36" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8KSmPP8pXirxxuNu3GOe-8" value="Anmälan">
+          <mxGeometry relative="1" x="0.285" y="-2" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="520" y="400" />
+            </Array>
+            <mxPoint x="531" y="611" as="sourcePoint" />
+            <mxPoint x="530" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8KSmPP8pXirxxuNu3GOe-39" parent="8KSmPP8pXirxxuNu3GOe-1" style="rounded=0;whiteSpace=wrap;html=1;" value="RMV&lt;div&gt;(Polisen)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="110" x="610" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XorJY_7ZSdH4twpxELiK-0" edge="1" parent="8KSmPP8pXirxxuNu3GOe-1" source="8KSmPP8pXirxxuNu3GOe-24" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="8KSmPP8pXirxxuNu3GOe-8" value="eID">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="180" />
+            </Array>
+            <mxPoint x="300" y="387" as="sourcePoint" />
+            <mxPoint x="490" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XorJY_7ZSdH4twpxELiK-1" parent="8KSmPP8pXirxxuNu3GOe-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Agerar HL som företrädare?&lt;div&gt;Handläggning och diarieföring?&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="155" x="625" y="480" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram name="Kontextuell DFD 0.2" id="qqfYiSS3ZsI33I5xlctp">
-    <mxGraphModel dx="1450" dy="1038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1172" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="HfCRWuTTmswg8Dt9He_M-0" />
         <mxCell id="HfCRWuTTmswg8Dt9He_M-1" parent="HfCRWuTTmswg8Dt9He_M-0" />
-        <mxCell id="HfCRWuTTmswg8Dt9He_M-8" parent="HfCRWuTTmswg8Dt9He_M-1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="&amp;nbsp;" vertex="1">
-          <mxGeometry height="170" width="170" x="360" y="180" as="geometry" />
+        <mxCell id="HfCRWuTTmswg8Dt9He_M-8" parent="HfCRWuTTmswg8Dt9He_M-1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="Donationsregister" vertex="1">
+          <mxGeometry height="150" width="150" x="350" y="290" as="geometry" />
         </mxCell>
         <mxCell id="HfCRWuTTmswg8Dt9He_M-31" parent="HfCRWuTTmswg8Dt9He_M-1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Kontextuell DFD&lt;/h1&gt;&lt;p&gt;Logiskt dataflöde&lt;br&gt;&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;Faktiskt dataflöde&lt;/font&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="95" width="320" x="40" y="40" as="geometry" />
         </mxCell>
         <mxCell id="ZH99bIkxov1AorYEIGuS-0" parent="HfCRWuTTmswg8Dt9He_M-1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3333FF;fontColor=#3333FF;" value="&amp;nbsp;" vertex="1">
-          <mxGeometry height="60" width="110" x="540" y="460" as="geometry" />
+          <mxGeometry height="60" width="110" x="380.5" y="660" as="geometry" />
         </mxCell>
         <mxCell id="ZH99bIkxov1AorYEIGuS-1" edge="1" parent="HfCRWuTTmswg8Dt9He_M-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3333FF;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#3333FF;labelBackgroundColor=default;endArrow=classic;" value="v">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="499.5" y="530" as="sourcePoint" />
-            <mxPoint x="690.5" y="554.015873015873" as="targetPoint" />
+            <mxPoint x="340" y="730" as="sourcePoint" />
+            <mxPoint x="531" y="754.015873015873" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZH99bIkxov1AorYEIGuS-2" parent="HfCRWuTTmswg8Dt9He_M-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&amp;nbsp;" vertex="1">
-          <mxGeometry height="60" width="110" x="260" y="370" as="geometry" />
+        <mxCell id="ZH99bIkxov1AorYEIGuS-2" parent="HfCRWuTTmswg8Dt9He_M-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Medborgare" vertex="1">
+          <mxGeometry height="60" width="110" x="90" y="350" as="geometry" />
         </mxCell>
-        <mxCell id="ZH99bIkxov1AorYEIGuS-3" edge="1" parent="HfCRWuTTmswg8Dt9He_M-1" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" value="&amp;nbsp;">
+        <mxCell id="ZH99bIkxov1AorYEIGuS-3" edge="1" parent="HfCRWuTTmswg8Dt9He_M-1" source="HfCRWuTTmswg8Dt9He_M-8" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="ZH99bIkxov1AorYEIGuS-6" value="Sökbar&lt;div&gt;viljeyttring&lt;/div&gt;">
           <mxGeometry relative="1" x="0.2377" y="-9" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="640" y="283.7037037037037" />
+              <mxPoint x="560" y="410.0037037037037" />
             </Array>
-            <mxPoint x="580" y="283.7037037037037" as="sourcePoint" />
-            <mxPoint x="720" y="260" as="targetPoint" />
+            <mxPoint x="500" y="410.0037037037037" as="sourcePoint" />
+            <mxPoint x="640" y="386.3" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZH99bIkxov1AorYEIGuS-4" edge="1" parent="HfCRWuTTmswg8Dt9He_M-1" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" value="&amp;nbsp;">
+        <mxCell id="ZH99bIkxov1AorYEIGuS-4" edge="1" parent="HfCRWuTTmswg8Dt9He_M-1" source="ZH99bIkxov1AorYEIGuS-2" style="shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="HfCRWuTTmswg8Dt9He_M-8" value="Viljeyttring">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="280" y="250" />
+              <mxPoint x="309" y="318" />
             </Array>
-            <mxPoint x="170" y="250" as="sourcePoint" />
-            <mxPoint x="331" y="282" as="targetPoint" />
+            <mxPoint x="199" y="318" as="sourcePoint" />
+            <mxPoint x="360" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZH99bIkxov1AorYEIGuS-6" parent="HfCRWuTTmswg8Dt9He_M-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Sjukvården" vertex="1">
+          <mxGeometry height="60" width="110" x="630" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="ZH99bIkxov1AorYEIGuS-7" parent="HfCRWuTTmswg8Dt9He_M-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Viljeyttring = Personnummer + Ja|Nej + (Avsteg)" vertex="1">
+          <mxGeometry height="30" width="350" x="80" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ZH99bIkxov1AorYEIGuS-8" parent="HfCRWuTTmswg8Dt9He_M-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Navetuppslag" vertex="1">
+          <mxGeometry height="60" width="110" x="480" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="ZH99bIkxov1AorYEIGuS-9" edge="1" parent="HfCRWuTTmswg8Dt9He_M-1" source="ZH99bIkxov1AorYEIGuS-8" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="HfCRWuTTmswg8Dt9He_M-8" value="Avisering">
+          <mxGeometry relative="1" x="0.2377" y="-9" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="470" y="470" />
+            </Array>
+            <mxPoint x="610" y="454" as="sourcePoint" />
+            <mxPoint x="744" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZH99bIkxov1AorYEIGuS-10" edge="1" parent="HfCRWuTTmswg8Dt9He_M-1" source="ZH99bIkxov1AorYEIGuS-8" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="HfCRWuTTmswg8Dt9He_M-8" value="Personuppgift">
+          <mxGeometry relative="1" x="0.2377" y="-9" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="420" y="530" />
+            </Array>
+            <mxPoint x="463.01" y="633.17" as="sourcePoint" />
+            <mxPoint x="360.00182876720623" y="440.00452581194685" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
