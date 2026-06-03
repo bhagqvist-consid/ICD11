@@ -809,8 +809,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="_Ojnf6h_iAp7P3zYnzIR" name="Sida-6">
-    <mxGraphModel dx="1443" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="_Ojnf6h_iAp7P3zYnzIR" name="Archimate Layered View">
+    <mxGraphModel dx="1255" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -821,16 +821,13 @@
           <mxGeometry height="75" width="150" x="310" y="40" as="geometry" />
         </mxCell>
         <mxCell id="XbKFlDzo1BIs-VmLYtZr-3" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=actor;archiType=square;" value="Handläggare SoS" vertex="1">
-          <mxGeometry height="75" width="150" x="540" y="40" as="geometry" />
+          <mxGeometry height="75" width="150" x="770" y="300" as="geometry" />
         </mxCell>
         <mxCell id="XbKFlDzo1BIs-VmLYtZr-4" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=serv;archiType=rounded;" value="Vårdens fråga" vertex="1">
           <mxGeometry height="75" width="150" x="80" y="170" as="geometry" />
         </mxCell>
-        <mxCell id="XbKFlDzo1BIs-VmLYtZr-5" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=serv;archiType=rounded;" value="Anmälan" vertex="1">
+        <mxCell id="XbKFlDzo1BIs-VmLYtZr-5" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=serv;archiType=rounded;" value="Allmänhetens ingång" vertex="1">
           <mxGeometry height="75" width="150" x="310" y="170" as="geometry" />
-        </mxCell>
-        <mxCell id="XbKFlDzo1BIs-VmLYtZr-6" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=serv;archiType=rounded;" value="Administration" vertex="1">
-          <mxGeometry height="75" width="150" x="540" y="170" as="geometry" />
         </mxCell>
         <mxCell id="XbKFlDzo1BIs-VmLYtZr-7" edge="1" parent="1" source="XbKFlDzo1BIs-VmLYtZr-4" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="XbKFlDzo1BIs-VmLYtZr-1" value="">
           <mxGeometry relative="1" width="160" as="geometry">
@@ -844,13 +841,7 @@
             <mxPoint x="430" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XbKFlDzo1BIs-VmLYtZr-9" edge="1" parent="1" source="XbKFlDzo1BIs-VmLYtZr-6" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="XbKFlDzo1BIs-VmLYtZr-3" value="">
-          <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="400" y="325" as="sourcePoint" />
-            <mxPoint x="400" y="270" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="XbKFlDzo1BIs-VmLYtZr-10" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" value="Business Process" vertex="1">
+        <mxCell id="XbKFlDzo1BIs-VmLYtZr-10" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" value="Vårdens fråga" vertex="1">
           <mxGeometry height="75" width="150" x="80" y="300" as="geometry" />
         </mxCell>
         <mxCell id="XbKFlDzo1BIs-VmLYtZr-11" edge="1" parent="1" source="XbKFlDzo1BIs-VmLYtZr-10" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;elbow=vertical;endFill=0;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="XbKFlDzo1BIs-VmLYtZr-4" value="">
@@ -876,6 +867,36 @@
             <mxPoint x="160" y="570" as="sourcePoint" />
             <mxPoint x="160" y="515" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Vqtw6Qe6gHNj-S13BPlw-1" edge="1" parent="1" source="XbKFlDzo1BIs-VmLYtZr-3" style="endArrow=block;html=1;endFill=1;startArrow=oval;startFill=1;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="Vqtw6Qe6gHNj-S13BPlw-3" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="680" y="380" as="sourcePoint" />
+            <mxPoint x="690.0000000000002" y="207.4999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vqtw6Qe6gHNj-S13BPlw-2" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" value="Allmänhetens ingång" vertex="1">
+          <mxGeometry height="75" width="150" x="310" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Vqtw6Qe6gHNj-S13BPlw-3" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" value="Administration" vertex="1">
+          <mxGeometry height="75" width="150" x="540" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Vqtw6Qe6gHNj-S13BPlw-4" edge="1" parent="1" source="Vqtw6Qe6gHNj-S13BPlw-2" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;elbow=vertical;endFill=0;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="XbKFlDzo1BIs-VmLYtZr-5" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="384.57" y="305" as="sourcePoint" />
+            <mxPoint x="384.57" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vqtw6Qe6gHNj-S13BPlw-5" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;verticalAlign=top;" value="Hantering av viljeyttring" vertex="1">
+          <mxGeometry height="100" width="540" x="320" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="Vqtw6Qe6gHNj-S13BPlw-6" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" value="Anmälan" vertex="1">
+          <mxGeometry height="55" width="120" x="340" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="Vqtw6Qe6gHNj-S13BPlw-7" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" value="Sökning" vertex="1">
+          <mxGeometry height="55" width="120" x="530" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="Vqtw6Qe6gHNj-S13BPlw-8" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" value="Gallring" vertex="1">
+          <mxGeometry height="55" width="120" x="720" y="490" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
