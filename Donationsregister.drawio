@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="5">
+<mxfile host="app.diagrams.net" pages="6">
   <diagram name="Kontextuell DFD" id="F3DC_KPKV7Cfi4B8QXFW">
     <mxGraphModel dx="1004" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -680,7 +680,7 @@
             <mxPoint x="30" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cSQvczOItniMIweKlyAm-70" parent="1" style="text;whiteSpace=wrap;html=1;" value="0 = Njure&#xa;1 = Lever&#xa;2 = Bukspottkörtel&#xa;3 = Hjärta/ hjärtklaffar&#xa;4 = Lungor&#xa;5 = Hornhinnor/ögon&#xa;6 = Hjärtklaffar&#xa;7 = Hud&#xa;8 = Benvävnad&#xa;9 = Muskelvävnad&#xa;10 = Nervvävnad&#xa;11 = Forskning *Ny*" vertex="1">
+        <mxCell id="cSQvczOItniMIweKlyAm-70" parent="1" style="text;whiteSpace=wrap;html=1;" value="0 = Njure &#xa;1 = Lever &#xa;2 = Bukspottkörtel &#xa;3 = Hjärta/ hjärtklaffar &#xa;4 = Lungor &#xa;5 = Hornhinnor/ögon &#xa;6 = Hjärtklaffar &#xa;7 = Hud &#xa;8 = Benvävnad &#xa;9 = Muskelvävnad &#xa;10 = Nervvävnad &#xa;11 = Forskning *Ny*" vertex="1">
           <mxGeometry height="190" width="140" x="480" y="780" as="geometry" />
         </mxCell>
         <mxCell id="AWJU5LGrgw8Wl6eSMpXB-6" edge="1" parent="1" source="AWJU5LGrgw8Wl6eSMpXB-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="AWJU5LGrgw8Wl6eSMpXB-2">
@@ -702,11 +702,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="E-LDhWCQmroWOV0PNqT9" name="Livscykelmodeller">
-    <mxGraphModel dx="1705" dy="978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1443" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="CYJjucyrZ51cZex0hds5-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Livscykelmodeller&lt;/h1&gt;" vertex="1">
+        <mxCell id="CYJjucyrZ51cZex0hds5-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Livscykelmodell Anmälan&lt;/h1&gt;" vertex="1">
           <mxGeometry height="40" width="320" x="40" y="40" as="geometry" />
         </mxCell>
         <mxCell id="CwNYav6DD1hfnaNcgPTv-1" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
@@ -806,8 +806,76 @@
             <mxPoint x="380" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RBlGg7IKd_uOqaQZYLn9-1" parent="1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="Anmälan" vertex="1">
-          <mxGeometry height="26" width="80" x="120" y="102" as="geometry" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_Ojnf6h_iAp7P3zYnzIR" name="Sida-6">
+    <mxGraphModel dx="1443" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XbKFlDzo1BIs-VmLYtZr-1" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=actor;archiType=square;" value="Behörig personal inom sjukvård" vertex="1">
+          <mxGeometry height="75" width="150" x="80" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XbKFlDzo1BIs-VmLYtZr-2" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=actor;archiType=square;" value="Folkbokförd individ" vertex="1">
+          <mxGeometry height="75" width="150" x="310" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XbKFlDzo1BIs-VmLYtZr-3" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=actor;archiType=square;" value="Handläggare SoS" vertex="1">
+          <mxGeometry height="75" width="150" x="540" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XbKFlDzo1BIs-VmLYtZr-4" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=serv;archiType=rounded;" value="Vårdens fråga" vertex="1">
+          <mxGeometry height="75" width="150" x="80" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="XbKFlDzo1BIs-VmLYtZr-5" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=serv;archiType=rounded;" value="Anmälan" vertex="1">
+          <mxGeometry height="75" width="150" x="310" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="XbKFlDzo1BIs-VmLYtZr-6" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=serv;archiType=rounded;" value="Administration" vertex="1">
+          <mxGeometry height="75" width="150" x="540" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="XbKFlDzo1BIs-VmLYtZr-7" edge="1" parent="1" source="XbKFlDzo1BIs-VmLYtZr-4" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="XbKFlDzo1BIs-VmLYtZr-1" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="170" y="140" as="sourcePoint" />
+            <mxPoint x="330" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XbKFlDzo1BIs-VmLYtZr-8" edge="1" parent="1" source="XbKFlDzo1BIs-VmLYtZr-5" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="XbKFlDzo1BIs-VmLYtZr-2" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="390" y="160" as="sourcePoint" />
+            <mxPoint x="430" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XbKFlDzo1BIs-VmLYtZr-9" edge="1" parent="1" source="XbKFlDzo1BIs-VmLYtZr-6" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="XbKFlDzo1BIs-VmLYtZr-3" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="400" y="325" as="sourcePoint" />
+            <mxPoint x="400" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XbKFlDzo1BIs-VmLYtZr-10" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;" value="Business Process" vertex="1">
+          <mxGeometry height="75" width="150" x="80" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="XbKFlDzo1BIs-VmLYtZr-11" edge="1" parent="1" source="XbKFlDzo1BIs-VmLYtZr-10" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;elbow=vertical;endFill=0;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="XbKFlDzo1BIs-VmLYtZr-4" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="150" y="270" as="sourcePoint" />
+            <mxPoint x="310" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XbKFlDzo1BIs-VmLYtZr-12" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=serv;archiType=rounded" value="Application Service" vertex="1">
+          <mxGeometry height="75" width="150" x="80" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="XbKFlDzo1BIs-VmLYtZr-13" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.application;appType=comp;archiType=square;" value="Application Component" vertex="1">
+          <mxGeometry height="75" width="150" x="80" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="XbKFlDzo1BIs-VmLYtZr-14" edge="1" parent="1" source="XbKFlDzo1BIs-VmLYtZr-12" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="XbKFlDzo1BIs-VmLYtZr-10" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="160" y="440" as="sourcePoint" />
+            <mxPoint x="160" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XbKFlDzo1BIs-VmLYtZr-15" edge="1" parent="1" source="XbKFlDzo1BIs-VmLYtZr-13" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;elbow=vertical;endFill=0;dashed=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="XbKFlDzo1BIs-VmLYtZr-12" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="160" y="570" as="sourcePoint" />
+            <mxPoint x="160" y="515" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
