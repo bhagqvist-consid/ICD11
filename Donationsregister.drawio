@@ -986,7 +986,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="spWdE1jw4pHaLvpHHRuB-2" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Person" vertex="1">
-          <mxGeometry height="182" width="140" x="170" y="241" as="geometry" />
+          <mxGeometry height="182" width="140" x="190" y="80" as="geometry" />
         </mxCell>
         <mxCell id="spWdE1jw4pHaLvpHHRuB-3" parent="spWdE1jw4pHaLvpHHRuB-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Namn" vertex="1">
           <mxGeometry height="26" width="140" y="26" as="geometry" />
@@ -1007,7 +1007,7 @@
           <mxGeometry height="26" width="140" y="156" as="geometry" />
         </mxCell>
         <mxCell id="spWdE1jw4pHaLvpHHRuB-6" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Anmälan" vertex="1">
-          <mxGeometry height="130" width="140" x="430" y="267" as="geometry" />
+          <mxGeometry height="130" width="140" x="450" y="106" as="geometry" />
         </mxCell>
         <mxCell id="spWdE1jw4pHaLvpHHRuB-7" parent="spWdE1jw4pHaLvpHHRuB-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Löpnummer" vertex="1">
           <mxGeometry height="26" width="140" y="26" as="geometry" />
@@ -1022,7 +1022,7 @@
           <mxGeometry height="26" width="140" y="104" as="geometry" />
         </mxCell>
         <mxCell id="spWdE1jw4pHaLvpHHRuB-10" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Ställningstagande" vertex="1">
-          <mxGeometry height="130" width="140" x="730" y="267" as="geometry" />
+          <mxGeometry height="130" width="140" x="750" y="106" as="geometry" />
         </mxCell>
         <mxCell id="spWdE1jw4pHaLvpHHRuB-12" parent="spWdE1jw4pHaLvpHHRuB-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Datum" vertex="1">
           <mxGeometry height="26" width="140" y="26" as="geometry" />
@@ -1038,38 +1038,40 @@
         </mxCell>
         <mxCell id="spWdE1jw4pHaLvpHHRuB-20" edge="1" parent="1" source="spWdE1jw4pHaLvpHHRuB-2" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" target="spWdE1jw4pHaLvpHHRuB-6" value="Gör en&lt;div&gt;eller flera&lt;/div&gt;">
           <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="320" y="330" as="sourcePoint" />
-            <mxPoint x="470" y="332" as="targetPoint" />
+            <mxPoint x="340" y="169" as="sourcePoint" />
+            <mxPoint x="490" y="171" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="spWdE1jw4pHaLvpHHRuB-21" edge="1" parent="1" source="spWdE1jw4pHaLvpHHRuB-6" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" target="spWdE1jw4pHaLvpHHRuB-10" value="Kan leda till&lt;div&gt;eller återkalla&lt;/div&gt;">
           <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="370" y="280" as="sourcePoint" />
-            <mxPoint x="500" y="280" as="targetPoint" />
+            <mxPoint x="390" y="119" as="sourcePoint" />
+            <mxPoint x="520" y="119" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="spWdE1jw4pHaLvpHHRuB-22" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Undantag" vertex="1">
-          <mxGeometry height="52" width="140" x="585" y="490" as="geometry" />
+          <mxGeometry height="52" width="140" x="605" y="329" as="geometry" />
         </mxCell>
         <mxCell id="spWdE1jw4pHaLvpHHRuB-26" parent="spWdE1jw4pHaLvpHHRuB-22" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="Typ&amp;nbsp;&amp;nbsp;[...]" vertex="1">
           <mxGeometry height="26" width="140" y="26" as="geometry" />
         </mxCell>
         <mxCell id="spWdE1jw4pHaLvpHHRuB-27" edge="1" parent="1" source="spWdE1jw4pHaLvpHHRuB-6" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="spWdE1jw4pHaLvpHHRuB-22" value="Kan ha&lt;div&gt;en eller flera&lt;/div&gt;">
-          <mxGeometry relative="1" width="160" as="geometry">
+          <mxGeometry relative="1" width="160" x="-0.3991" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="500" y="525" />
+              <mxPoint x="520" y="364" />
             </Array>
-            <mxPoint x="420" y="340" as="sourcePoint" />
-            <mxPoint x="550" y="340" as="targetPoint" />
+            <mxPoint x="440" y="179" as="sourcePoint" />
+            <mxPoint x="570" y="179" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="spWdE1jw4pHaLvpHHRuB-28" edge="1" parent="1" source="spWdE1jw4pHaLvpHHRuB-10" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="spWdE1jw4pHaLvpHHRuB-22" value="Kan ha&lt;div&gt;en eller flera&lt;/div&gt;">
-          <mxGeometry relative="1" width="160" as="geometry">
+          <mxGeometry relative="1" width="160" x="-0.3695" as="geometry">
+            <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="800" y="525" />
+              <mxPoint x="820" y="364" />
             </Array>
-            <mxPoint x="840" y="430" as="sourcePoint" />
-            <mxPoint x="980" y="493" as="targetPoint" />
+            <mxPoint x="860" y="269" as="sourcePoint" />
+            <mxPoint x="1000" y="332" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
