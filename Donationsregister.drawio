@@ -1505,12 +1505,12 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Logisk modell" id="4iQAINTebbEqc5eStN8o">
-    <mxGraphModel dx="3874" dy="1252" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2909" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="9n7DZVNyFvMXVYSXfhmK-0" />
         <mxCell id="9n7DZVNyFvMXVYSXfhmK-1" parent="9n7DZVNyFvMXVYSXfhmK-0" />
         <mxCell id="9n7DZVNyFvMXVYSXfhmK-70" parent="9n7DZVNyFvMXVYSXfhmK-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Persons" vertex="1">
-          <mxGeometry height="182" width="390" x="120" y="40" as="geometry" />
+          <mxGeometry height="182" width="390" x="210" y="630" as="geometry" />
         </mxCell>
         <mxCell id="9n7DZVNyFvMXVYSXfhmK-71" parent="9n7DZVNyFvMXVYSXfhmK-70" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=4" value="PK&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;PersonID&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;UNIQUE_IDENTIFIER" vertex="1">
           <mxGeometry height="26" width="390" y="26" as="geometry" />
@@ -1594,7 +1594,7 @@
           <mxGeometry height="26" width="360" y="246" as="geometry" />
         </mxCell>
         <mxCell id="9n7DZVNyFvMXVYSXfhmK-95" parent="9n7DZVNyFvMXVYSXfhmK-1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="PersonIdentifyingInformation" vertex="1">
-          <mxGeometry height="364" width="240" x="120" y="280" as="geometry" />
+          <mxGeometry height="364" width="240" x="-185" y="630" as="geometry" />
         </mxCell>
         <mxCell id="Mbf7IlEE7LH3oMOg4ND--14" parent="9n7DZVNyFvMXVYSXfhmK-95" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=4" value="PK&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;PersonID&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;UNIQUE_IDENTIFIER" vertex="1">
           <mxGeometry height="26" width="240" y="26" as="geometry" />
@@ -1852,6 +1852,18 @@
           <mxGeometry height="100" relative="1" width="100" as="geometry">
             <mxPoint x="80" y="1330" as="sourcePoint" />
             <mxPoint x="170" y="1354" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K8-GJaJBzXwT43fDvvAZ-0" edge="1" parent="9n7DZVNyFvMXVYSXfhmK-1" source="9n7DZVNyFvMXVYSXfhmK-76" style="fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERoneToMany;rounded=0;startFill=0;endFill=0;" target="9n7DZVNyFvMXVYSXfhmK-70" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="170" y="1218" as="sourcePoint" />
+            <mxPoint x="260" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K8-GJaJBzXwT43fDvvAZ-1" edge="1" parent="9n7DZVNyFvMXVYSXfhmK-1" source="9n7DZVNyFvMXVYSXfhmK-70" style="fontSize=12;html=1;endArrow=ERzeroToOne;startArrow=ERmandOne;rounded=0;" target="9n7DZVNyFvMXVYSXfhmK-95" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="570" y="700" as="sourcePoint" />
+            <mxPoint x="1050" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
