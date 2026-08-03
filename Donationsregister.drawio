@@ -1945,7 +1945,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Kopia av Stående Logisk modell" id="KlpHEGRWqItZJMcnAqJc">
+  <diagram name="Liggande Logisk modell" id="KlpHEGRWqItZJMcnAqJc">
     <mxGraphModel dx="3715" dy="3501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="IYOUECI_Wg4Rdw0fbU2w-0" />
@@ -2233,7 +2233,7 @@
           <mxGeometry height="26" width="220" y="130" as="geometry" />
         </mxCell>
         <mxCell id="IYOUECI_Wg4Rdw0fbU2w-96" parent="IYOUECI_Wg4Rdw0fbU2w-1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="DeclarationsDonationExceptions" vertex="1">
-          <mxGeometry height="156" width="310" x="-360" y="-554" as="geometry" />
+          <mxGeometry height="156" width="310" x="-350" y="-560" as="geometry" />
         </mxCell>
         <mxCell id="IYOUECI_Wg4Rdw0fbU2w-97" parent="IYOUECI_Wg4Rdw0fbU2w-96" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=4" value="PK, FK&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;OrganCode&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;CHAR(2)" vertex="1">
           <mxGeometry height="26" width="310" y="26" as="geometry" />
