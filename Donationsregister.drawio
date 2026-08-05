@@ -1665,7 +1665,7 @@
         <mxCell id="O-Ev42l0EG4Md_G-jCgb-40" parent="O-Ev42l0EG4Md_G-jCgb-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="StatusDatum" vertex="1">
           <mxGeometry height="26" width="140" y="130" as="geometry" />
         </mxCell>
-        <mxCell id="5g1k-o2EnwqtOkMyPfBI-7" edge="1" parent="1" source="O-Ev42l0EG4Md_G-jCgb-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#FFD966;startArrow=open;startFill=0;endArrow=none;endFill=0;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;startSize=12;endSize=12;fillColor=#0050ef;" target="O-Ev42l0EG4Md_G-jCgb-9" value="Kan&amp;nbsp;&lt;div&gt;gjöras&amp;nbsp;&lt;/div&gt;&lt;div&gt;av&lt;/div&gt;">
+        <mxCell id="5g1k-o2EnwqtOkMyPfBI-7" edge="1" parent="1" source="O-Ev42l0EG4Md_G-jCgb-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#FFD966;startArrow=open;startFill=0;endArrow=none;endFill=0;strokeColor=#000000;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;startSize=12;endSize=12;fillColor=#0050ef;" target="O-Ev42l0EG4Md_G-jCgb-9" value="Kan&amp;nbsp;&lt;div&gt;göras&amp;nbsp;&lt;/div&gt;&lt;div&gt;av&lt;/div&gt;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="710" y="2070" />
@@ -1806,7 +1806,7 @@
             <mxPoint x="750" y="2342" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5g1k-o2EnwqtOkMyPfBI-8" edge="1" parent="1" source="O-Ev42l0EG4Md_G-jCgb-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#000000;labelBackgroundColor=#FFD966;startArrow=open;startFill=0;endArrow=none;endFill=0;startSize=12;endSize=12;" target="O-Ev42l0EG4Md_G-jCgb-9" value="Kan gjöras av">
+        <mxCell id="5g1k-o2EnwqtOkMyPfBI-8" edge="1" parent="1" source="O-Ev42l0EG4Md_G-jCgb-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#000000;labelBackgroundColor=#FFD966;startArrow=open;startFill=0;endArrow=none;endFill=0;startSize=12;endSize=12;" target="O-Ev42l0EG4Md_G-jCgb-9" value="Kan göras av">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="560" y="1830" />
