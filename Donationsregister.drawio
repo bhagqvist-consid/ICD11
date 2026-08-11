@@ -1868,7 +1868,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Stående Logisk modell" id="yQ0hKaCarcjXtT6k5rfg">
-    <mxGraphModel dx="2323" dy="2480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="3189" dy="3099" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="XBpHR9FdO6-9K1CH0vhy-0" />
         <mxCell id="XBpHR9FdO6-9K1CH0vhy-1" parent="XBpHR9FdO6-9K1CH0vhy-0" />
@@ -1900,7 +1900,7 @@
           <mxGeometry height="26" width="436" y="232" as="geometry" />
         </mxCell>
         <mxCell id="XBpHR9FdO6-9K1CH0vhy-9" parent="XBpHR9FdO6-9K1CH0vhy-1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Submissions" vertex="1">
-          <mxGeometry height="376" width="400" x="-1110" y="-872" as="geometry" />
+          <mxGeometry height="376" width="400" x="-1110" y="-889" as="geometry" />
         </mxCell>
         <mxCell id="XBpHR9FdO6-9K1CH0vhy-10" parent="XBpHR9FdO6-9K1CH0vhy-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontStyle=4" value="PK&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;SumissionID&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;UNIQUE_IDENTIFIER" vertex="1">
           <mxGeometry height="26" width="400" y="26" as="geometry" />
