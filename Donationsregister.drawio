@@ -2362,7 +2362,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Liggande Logisk modell" id="KlpHEGRWqItZJMcnAqJc">
-    <mxGraphModel dx="1204" dy="-324.4" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1968.5" pageHeight="1102.4" background="light-dark(#FFFFFF,#121212)" math="0" shadow="0">
+    <mxGraphModel dx="2300" dy="194.6" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1968.5" pageHeight="1102.4" background="light-dark(#FFFFFF,#121212)" math="0" shadow="0">
       <root>
         <mxCell id="IYOUECI_Wg4Rdw0fbU2w-0" />
         <mxCell id="IYOUECI_Wg4Rdw0fbU2w-1" parent="IYOUECI_Wg4Rdw0fbU2w-0" />
@@ -2867,7 +2867,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="j2XJI-EarSSU1-tibuCY-0" connectable="0" parent="IYOUECI_Wg4Rdw0fbU2w-1" style="group" value="" vertex="1">
-          <mxGeometry height="70" width="300" x="1595" y="2117" as="geometry" />
+          <mxGeometry height="70" width="300" x="1604" y="2244" as="geometry" />
         </mxCell>
         <mxCell id="j2XJI-EarSSU1-tibuCY-1" parent="j2XJI-EarSSU1-tibuCY-0" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;align=left;" value="" vertex="1">
           <mxGeometry height="70" width="300" as="geometry" />
